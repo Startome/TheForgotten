@@ -252,6 +252,57 @@ system Cannon
 			distance 391
 			period 33.0323
 
+system Cassini
+	pos 151.01 259.251
+	government "Genesis Directive"
+	habitable 625
+	link Halley
+	link Burnell
+	link Brahe
+	link Laplace
+	asteroids "large metal" 1 1.26
+	trade Clothing 310
+	trade Electronics 800
+	trade Equipment 440
+	trade Food 290
+	trade "Heavy Metals" 875
+	trade Industrial 820
+	trade "Luxury Goods" 1100
+	trade Medical 680
+	trade Metal 275
+	trade Plastic 380
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/ice1
+		distance 218.24
+		period 51.5848
+	object
+		sprite planet/rock9
+		distance 444.53
+		period 149.959
+	object Genova
+		sprite planet/lava1
+		distance 742.53
+		period 323.736
+	object
+		sprite planet/gas8
+		distance 1966.57
+		period 1395.35
+		object
+			sprite planet/rock17
+			distance 198
+			period 14.8311
+		object
+			sprite planet/europa
+			distance 286
+			period 25.747
+		object
+			sprite planet/lava0
+			distance 438
+			period 48.7964
+
 system "C. Herschel"
 	pos 62.0102 440.251
 	government "Genesis Directive"
@@ -1800,6 +1851,13 @@ planet Dover
 	spaceport `The docking area is the only part of the planet not covered in smog. Serious machinery is required to keep the skies clear, but it's necessary to prevent accidents during landing and takeoff. Your ship is just one of countless vessels parked here, clearly a navy port for this combat ready people.`
 	bribe 0.01
 	security 0.04
+	
+planet Genova
+	landscape land/lava9
+	description `Genova is a planet which is great importance to the war with the Neo-Hegemony. It is the furthest frontier in the war, and naturally contains metals and heavy metals, making it a perfect place to repair ships with no added expense for transporting the resources. As a result there is a massive military presence here, most likely larger than even the one located in Barnell.`
+	spaceport `When a vessel enters Genova's atmosphere, the pilot finds they have a lot of checkpoints to clear through before being granted access. This is definitely a completely military port, and visitors are to adhere to all standards the military vessels have to. When they finally are permitted to land, they find the greatest outfitter in Directive space, and a substantial shipyard. Most regular naval vessels can be serviced in this port. `
+	bribe 0.05
+	security 0.05
 
 planet Ithaca
 	landscape land/city18
