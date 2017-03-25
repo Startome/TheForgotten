@@ -10,7 +10,7 @@
 #		sprite planet/wormhole
 
 galaxy "label forgotten"
-	pos -566 501
+	pos 224 320
 	sprite label/forgotten
     # label is still to do. just putting this here so i don't forget it.
 
@@ -1873,6 +1873,11 @@ planet Kent
 	bribe 0.01
 	security 0.01
 
+planet Lachaise
+	landscape land/trade0
+	description `Lachaise is not particularly remarkable except that is it perfectly located for trade. This trade allows the planet to boast competitive prices on all commodities, even though it has no real manufacturing of it's own. This situation is largely responsible for the Confederation's ability to field it's large navy.`
+	spaceport `Messier is one of two major trade crossroads in the Confederation. This allows them a higher level of influence on trade regulation than others. This has made the leaders on Lachaise one of the primary groups pushing the militirization of trade. Meaning the navy partially funds itself by carrying commodities on it's ships as it moves from system to system. Resulting in a much larger military budget than the other factions can bring forth.`
+
 planet Lancaster
 	landscape land/circuit0
 	description `Lancaster is a planet with no real practical resources for construction, and was initally overlooked during the first wave of colonization. After spending a substantial time uninhabited, a research team discovered deposity of conductive materials here, this planet then became a major production facility for electronic components. Cities have begun to grow around these deposits, and the system has grown in importance. As a result of that growing usefulness, the pace of military patrolls going through the system has also increased.`
@@ -1886,6 +1891,13 @@ planet Largan
 	spaceport `When you land you immediately pull your clothes over your face. The sand is so thick you feel like you should have special equipment here.  It makes sense why the only people visible are dock crew and miners travelling to and from the planet. There is almost nothing to be accomplished here.`
 	bribe 0.01
 	security 0.01
+
+planet "Largan Station"
+	landscape land/largan1
+	description `Largan Station is a military outpost. Built purely to resuply the coreward navy forces and protect the mining planet of Largan. This atmosphere is a far more pleasant place to be conducting your business.`
+	spaceport `There are few planets in the New Systems which boast as many ships as Largan Station. Some damaged and being repaired, some resupplying, and others just being built. This is a highly impressive operation, and explains why this system has never changed hands during this 20 year war.`
+	bribe 0.03
+	security 0.03
 
 planet Lincolnshire
 	landscape land/fields14
@@ -1952,6 +1964,14 @@ planet Tycho
 	"required reputation" 51
 	bribe 0.01
 	security 0.02
+
+planet Ulm
+	landscape land/gamble0
+	description `This planet isn't capable of sustaining substantial crops. It does have a small mining operation, however it is totally lacking in heavy metals. Most enterprises passed this planet up as a lost cause, not worth the expense of colonizing. However the "lesser elements" of society have chosen to make this place home. Rather than throw their lot in with Neo-Hegemony as most of the rougher types did, they chose a lifestyle that allowed themselves the most independance from the larger governments.`
+	spaceport `This system being named after Einstein, it seems appropriate that it would be a planet for gamblers. His theories on Quantum physics are often referred to as a great gamble, not confirmed until 100 years later.`
+	spaceport `	As you look around you see nothing but glowing lights and fancy clothes. People from all three factions have found transport to the back of Confederation space to visit these facilities.  There are grand casionos everywhere, but nothing like these. There are multiple stories in the building closest to you, and the one beyond it boasts "Five indoor tracks" on it's biggest sign. It seemes that, like everything else in this culture, they've kept gambling to the old ways. You should be careful around here, lest you find your pockets lighter when you leave.`
+	bribe 0.03
+	security 0.03
 
 planet Wheaton
 	landscape land/farm0
