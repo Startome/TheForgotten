@@ -8,14 +8,14 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 #		sprite planet/wormhole
+    # label is still to do. just putting this here so i don't forget it.
 
 galaxy "label forgotten"
 	pos 224 320
 	sprite label/forgotten
-    # label is still to do. just putting this here so i don't forget it.
 
 system Azophi
-	pos 385.01 356.251
+	pos 968.01 737.251
 	government Neo-Hegemony
 	habitable 625
 	link Copernicus
@@ -62,7 +62,7 @@ system Azophi
 		period 1347.06
 
 system Brahe
-	pos 170.01 320.251
+	pos 753.01 701.251
 	government "Genesis Directive"
 	habitable 486.68
 	link Burnell
@@ -125,7 +125,7 @@ system Brahe
 			period 14.2667
 
 system Burnell
-	pos 100.01 322.251
+	pos 683.01 703.251
 	government "Genesis Directive"
 	habitable 425.92
 	link Cassini
@@ -190,8 +190,67 @@ system Burnell
 			distance 273
 			period 23.7433
 
+system "C. Herschel"
+	pos 644.01 822.251
+	government "Genesis Directive"
+	habitable 425.92
+	link Tombaugh
+	link "W. Herschel"
+	link Newton
+	asteroids "small rock" 23 4.2744
+	asteroids "medium rock" 83 3.744
+	asteroids "large rock" 28 1.6224
+	asteroids "small metal" 2 4.212
+	asteroids "medium metal" 5 4.212
+	asteroids "large metal" 3 3.6816
+	trade Clothing 250
+	trade Electronics 760
+	trade Equipment 520
+	trade Food 280
+	trade "Heavy Metals" 945
+	trade Industrial 750
+	trade "Luxury Goods" 1163
+	trade Medical 640
+	trade Metal 320
+	trade Plastic 400
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/cloud2
+		distance 182.61
+		period 47.8281
+	object
+		sprite planet/earth
+		distance 483.61
+		period 206.129
+	object Windsor
+		sprite planet/rock1
+		distance 808.57
+		period 445.628
+		object
+			sprite planet/rock17
+			distance 120
+			period 15.2857
+	object
+		sprite planet/cloud4
+		distance 1189.82
+		period 795.459
+		object
+			sprite planet/ice0
+			distance 144
+			period 16.2531
+	object
+		sprite planet/gas9
+		distance 3910.11
+		period 4738.92
+		object
+			sprite planet/rock7
+			distance 220
+			period 12.2356
+
 system Cannon
-	pos 401.01 221.251
+	pos 984.01 603.251
 	government Neo-Hegemony
 	habitable 640
 	link Hubble
@@ -253,7 +312,7 @@ system Cannon
 			period 33.0323
 
 system Cassini
-	pos 151.01 259.251
+	pos 734.01 641.251
 	government "Genesis Directive"
 	habitable 625
 	link Halley
@@ -303,67 +362,8 @@ system Cassini
 			distance 438
 			period 48.7964
 
-system "C. Herschel"
-	pos 62.0102 440.251
-	government "Genesis Directive"
-	habitable 425.92
-	link Tombaugh
-	link "W. Herschel"
-	link Newton
-	asteroids "small rock" 23 4.2744
-	asteroids "medium rock" 83 3.744
-	asteroids "large rock" 28 1.6224
-	asteroids "small metal" 2 4.212
-	asteroids "medium metal" 5 4.212
-	asteroids "large metal" 3 3.6816
-	trade Clothing 250
-	trade Electronics 760
-	trade Equipment 520
-	trade Food 280
-	trade "Heavy Metals" 945
-	trade Industrial 750
-	trade "Luxury Goods" 1163
-	trade Medical 640
-	trade Metal 320
-	trade Plastic 400
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/cloud2
-		distance 182.61
-		period 47.8281
-	object
-		sprite planet/earth
-		distance 483.61
-		period 206.129
-	object Windsor
-		sprite planet/rock1
-		distance 808.57
-		period 445.628
-		object
-			sprite planet/rock17
-			distance 120
-			period 15.2857
-	object
-		sprite planet/cloud4
-		distance 1189.82
-		period 795.459
-		object
-			sprite planet/ice0
-			distance 144
-			period 16.2531
-	object
-		sprite planet/gas9
-		distance 3910.11
-		period 4738.92
-		object
-			sprite planet/rock7
-			distance 220
-			period 12.2356
-
 system Copernicus
-	pos 274.01 368.251
+	pos 857.01 750.251
 	government Confederation
 	habitable 1313.28
 	link Galilei
@@ -432,7 +432,7 @@ system Copernicus
 			period 45.4927
 
 system Drake
-	pos 64.0102 375.251
+	pos 646.01 757.251
 	government "Genesis Directive"
 	habitable 425.92
 	link Kepler
@@ -485,7 +485,7 @@ system Drake
 			period 16.248
 
 system Dunkel
-	pos 393.701 420.073
+	pos 976.701 802.073
 	government "Genesis Directive"
 	habitable 320
 	asteroids "small rock" 27 3.75
@@ -524,7 +524,7 @@ system Dunkel
 			period 37.9039
 
 system Einstein
-	pos 244.01 526.251
+	pos 826.877 908.812
 	government Confederation
 	habitable 233.28
 	link Messier
@@ -580,7 +580,7 @@ system Einstein
 			period 14.2914
 
 system Eratosthenes
-	pos 316.01 407.251
+	pos 899.01 789.251
 	government Confederation
 	habitable 806.68
 	link Hartmann
@@ -637,7 +637,7 @@ system Eratosthenes
 			period 12.3542
 
 system Euler
-	pos 329.01 200.251
+	pos 911.01 582.251
 	government Neo-Hegemony
 	habitable 2606.04
 	link Shapley
@@ -697,7 +697,7 @@ system Euler
 			period 29.4614
 
 system Galilei
-	pos 170.01 358.251
+	pos 753.01 739.251
 	government "Genesis Directive"
 	habitable 1715
 	link Burnell
@@ -843,7 +843,7 @@ system "Gamma Cassiopeiae"
 			minables tungsten 6 7.59246
 
 system Gamow
-	pos 337.01 261.251
+	pos 919.01 642.251
 	government Neo-Hegemony
 	habitable 625
 	link Shapley
@@ -906,7 +906,7 @@ system Gamow
 			period 29.4614
 
 system Halley
-	pos 95.0102 268.251
+	pos 678.01 651.251
 	government "Genesis Directive"
 	habitable 5486.68
 	link Cassini
@@ -967,7 +967,7 @@ system Halley
 		offset 7.14033
 
 system Hartmann
-	pos 301.01 482.251
+	pos 885.01 864.251
 	government Confederation
 	habitable 233.28
 	link Einstein
@@ -1017,7 +1017,7 @@ system Hartmann
 		offset 359.74
 
 system Hawking
-	pos 267.01 307.251
+	pos 849.01 688.251
 	government Neo-Hegemony
 	habitable 806.68
 	link Brahe
@@ -1064,7 +1064,7 @@ system Hawking
 			period 13.9218
 
 system Hipparchus
-	pos 337.01 317.251
+	pos 920.01 698.251
 	government Neo-Hegemony
 	habitable 1850
 	link Copernicus
@@ -1120,7 +1120,7 @@ system Hipparchus
 			period 25.1717
 
 system Hubble
-	pos 411.01 295.251
+	pos 993.01 676.251
 	government Neo-Hegemony
 	habitable 486.68
 	link Gamow
@@ -1182,7 +1182,7 @@ system Hubble
 			period 26.4351
 
 system Hyugens
-	pos 142.01 386.251
+	pos 725.01 767.251
 	government "Genesis Directive"
 	habitable 233.28
 	link Burnell
@@ -1229,7 +1229,7 @@ system Hyugens
 			period 38.5309
 
 system Kepler
-	pos 28.0102 336.251
+	pos 611.01 718.251
 	government "Genesis Directive"
 	habitable 455
 	link Burnell
@@ -1309,7 +1309,7 @@ system Kepler
 			period 51.891
 
 system Laplace
-	pos 211.01 269.251
+	pos 793.01 650.251
 	government Neo-Hegemony
 	habitable 760
 	link Cassini
@@ -1367,7 +1367,7 @@ system Laplace
 			period 13.1398
 
 system Leavitt
-	pos 215.01 398.251
+	pos 797.01 779.251
 	government Confederation
 	habitable 625
 	link Hyugens
@@ -1421,7 +1421,7 @@ system Leavitt
 			period 21.2086
 
 system Messier
-	pos 164.01 503.251
+	pos 747.01 885.251
 	government Confederation
 	habitable 2372.76
 	link Newton
@@ -1464,7 +1464,7 @@ system Messier
 		period 754.613
 
 system Newton
-	pos 93.0102 462.251
+	pos 676.01 845.251
 	government Confederation
 	habitable 2140.92
 	link Hyugens
@@ -1530,7 +1530,7 @@ system Newton
 			period 12.7337
 
 system Ptolmy
-	pos 248.01 467.251
+	pos 830.01 849.251
 	government Confederation
 	habitable 1080
 	link Messier
@@ -1579,7 +1579,7 @@ system Ptolmy
 		offset 359.877
 
 system Sagan
-	pos 173 459.5
+	pos 756 841.5
 	government Confederation
 	habitable 625
 	link Messier
@@ -1632,7 +1632,7 @@ system Sagan
 			period 26.549
 
 system Shapley
-	pos 263.01 231.251
+	pos 846.01 612.251
 	government Neo-Hegemony
 	habitable 5000
 	link Hawking
@@ -1678,7 +1678,7 @@ system Shapley
 		period 504.227
 
 system Tombaugh
-	pos -1.98981 397.251
+	pos 581.01 779.251
 	government "Genesis Directive"
 	habitable 625
 	link Kepler
@@ -1738,7 +1738,7 @@ system Tombaugh
 			period 35.7289
 
 system "W. Herschel"
-	pos 59.0102 479.251
+	pos 642.01 861.251
 	government "Genesis Directive"
 	habitable 2201.68
 	link "C. Herschel"
@@ -1851,7 +1851,7 @@ planet Dover
 	spaceport `The docking area is the only part of the planet not covered in smog. Serious machinery is required to keep the skies clear, but it's necessary to prevent accidents during landing and takeoff. Your ship is just one of countless vessels parked here, clearly a navy port for this combat ready people.`
 	bribe 0.01
 	security 0.04
-	
+
 planet Genova
 	landscape land/lava9
 	description `Genova is a planet which is great importance to the war with the Neo-Hegemony. It is the furthest frontier in the war, and naturally contains metals and heavy metals, making it a perfect place to repair ships with no added expense for transporting the resources. As a result there is a massive military presence here, most likely larger than even the one located in Barnell.`
@@ -1989,3 +1989,4 @@ planet Windsor
 
 planet "Wormhole Beta"
 	landscape ""
+
