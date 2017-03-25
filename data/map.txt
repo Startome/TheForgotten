@@ -10,7 +10,7 @@
 #		sprite planet/wormhole
 
 galaxy "label forgotten"
-	pos -566 501
+	pos 224 320
 	sprite label/forgotten
     # label is still to do. just putting this here so i don't forget it.
 
