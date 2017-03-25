@@ -11,7 +11,7 @@
     # label is still to do. just putting this here so i don't forget it.
 
 galaxy "label forgotten"
-	pos 224 320
+	pos 830 715
 	sprite label/forgotten
 
 system Azophi
