@@ -1,0 +1,57 @@
+# Copyright (c) 2014-2016 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Shotgun Anti-Missile"
+	category "Turrets"
+	cost 55000
+	thumbnail "outfit/todo"
+	"mass" 14
+  "outfit space" -0
+	"turret mounts" -1
+	weapon
+		"anti-missile" 30
+		"velocity" 100
+		"lifetime" 1
+		"reload" 45
+		"firing energy" 28
+		"firing heat" 30
+  description "to do."
+
+outfit "Gatling Anti-Missile"
+  category "Turrets"
+  cost 115000
+  thumbnail "outfit/todo"
+  "mass" 20
+  "outfit space" -0
+  "turret mounts" -1
+  weapon
+    "anti-missile" 3
+    "velocity" 240
+    "lifetime" 1
+    "reload" 4
+    "firing energy" 3
+    "firing heat" 4
+  description "to do."
+
+outfit "Flak Anti-Missile"
+  category "Turrets"
+  cost 155000
+  thumbnail "outfit/todo"
+  "mass" 28
+  "outfit space" -0
+  "turret mounts" -1
+  weapon
+    "anti-missile" 4
+    "velocity" 420
+    "lifetime" 1
+    "reload" 6
+    "firing energy" 6
+    "firing heat" 6
+  description "to do."

@@ -1,0 +1,45 @@
+# Copyright (c) 2014-2016 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfit "Small Heat Sink"
+	category "Systems"
+	cost 5250
+	thumbnail "outfit/todo"
+	"mass" 3
+	"outfit space" -0
+	"cooling" 3
+	description "to do."
+
+outfit "Medium Heat Sink"
+	category "Systems"
+	cost 15500
+	thumbnail "outfit/todo"
+	"mass" 7
+	"outfit space" -0
+	"cooling 8.2"
+	description "to do."
+
+outfit "Large Heat Sink"
+	category "Systems"
+	cost 48500
+	thumbnail "outfit/todo"
+	"mass" 18
+	"outfit space" -0
+	"cooling" 24.6
+	description "to do."
+
+outfit "Heat Sink Network"
+	category "Systems"
+	cost 110000
+	thumbnail "outfit/todo"
+	"mass" 32
+	"outfit space" -0
+	"cooling" 53.3
+	description "to do."
