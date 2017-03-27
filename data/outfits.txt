@@ -43,3 +43,52 @@ outfit "Heat Sink Network"
 	"outfit space" -0
 	"cooling" 53.3
 	description "to do."
+
+outfit "Nano Cell"
+	category "Power"
+	cost 17500
+	thumbnail "outfit/todo"
+	"mass" 12
+	"outfit space" -0
+	"energy capacity" 1000
+	"cooling" 50
+	description "to do."
+
+outfit "Micro Cell"
+	category "Power"
+	cost 59000
+	thumbnail "outfit/todo"
+	"mass" 35
+	"outfit space" -0
+	"energy capacity" 4025
+	"cooling" 130
+	description "to do."
+
+outfit "Mili Cell"
+	category "Power"
+	cost 110000
+	thumbnail "outfit/todo"
+	"mass" 65
+	"outfit space" -0
+	"energy capacity" 8100
+	description "to do."
+
+outfit "Centi Cell"
+	category "Power"
+	cost 195000
+	thumbnail "outfit/todo"
+	"mass" 100
+	"outfit space" -0
+	"energy capacity" 14500
+	"cooling" -400
+	description "to do."
+
+outfit "Deci Cell"
+	category "Power"
+	cost 375000
+	thumbnail "outfit/todo"
+	"mass" 165
+	"outfit space" -0
+	"energy capacity" 28200
+	"cooling" -1300
+	description "to do."
