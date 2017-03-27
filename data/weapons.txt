@@ -8,12 +8,15 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+# ANTI MISSILE TURRETS
+
 outfit "Shotgun Anti-Missile"
 	category "Turrets"
 	cost 55000
 	thumbnail "outfit/todo"
 	"mass" 14
   "outfit space" -0
+	"weapon capacity" -0
 	"turret mounts" -1
 	weapon
 		"anti-missile" 30
@@ -30,6 +33,7 @@ outfit "Gatling Anti-Missile"
   thumbnail "outfit/todo"
   "mass" 20
   "outfit space" -0
+	"weapon capacity" -0
   "turret mounts" -1
   weapon
     "anti-missile" 3
@@ -46,6 +50,7 @@ outfit "Flak Anti-Missile"
   thumbnail "outfit/todo"
   "mass" 28
   "outfit space" -0
+	"weapon capacity" -0
   "turret mounts" -1
   weapon
     "anti-missile" 4
@@ -56,12 +61,15 @@ outfit "Flak Anti-Missile"
     "firing heat" 6
   description "to do."
 
+# GUNS
+
 outfit `"Lancer" Piercing`
 	category "Guns"
 	cost 38000
 	thumbnail "outfit/todo"
 	"mass" 8
 	"outfit space" -0
+	"weapon capacity" -0
 	"gun ports" -1
 	weapon
 		"inaccuracy" 3
@@ -81,6 +89,7 @@ outfit `"Winchester" Long`
 	thumbnail "outfit/todo"
 	"mass" 16
 	"outfit space" -0
+	"weapon capacity" -0
 	"gun ports" -1
 	weapon
 		"inaccuracy" 1
@@ -101,6 +110,7 @@ outfit `"Tsar" Cannon`
 	thumbnail "outfit/todo"
 	"mass" 30
 	"outfit space" -0
+	"weapon capacity" -0
 	"gun ports" -1
 	weapon
 		"inaccuracy" 4
@@ -113,4 +123,64 @@ outfit `"Tsar" Cannon`
 		"hit force" 12
 		"shield damage" 100
 		"hull damage" 320
+	description "to do."
+
+# TURRETS
+
+outfit "Cannonade"
+	category "Turrets"
+	cost 140000
+	thumbnail "outfit/todo"
+	"mass" 36
+	"outfit space" -0
+	"weapon capacity" -0
+	weapon
+		"inaccuracy" 4
+		"velocity" 10
+		"lifetime" 40
+		"reload" 9
+		"firing energy" 15.7
+		"firing heat" 30
+		"shield damage" 12.4
+		"hull damage" 42.6
+	description "to do."
+
+outfit "Moon Quaker"
+	category "Turrets"
+	cost 240000
+	thumbnail "outfit/todo"
+	"mass"48
+	"outfit space" -0
+	"weapon capacity" -0
+	weapon
+		"inaccuracy" 5
+		"velocity" 12
+		"lifetime" 40
+		"reload" 22
+		"firing energy" 51.3
+		"firing force" 2
+		"firing heat" 102.6
+		"hit force" 10
+		"shield damage" 43.9
+		"hull damage" 139.9
+	description "to do."
+
+outfit "Coil Launcher"
+	category "Turrets"
+	cost 620000
+	thumbnail "outfit/todo"
+	"mass" 104
+	"outfit space" -0
+	"weapon capacity" -0
+	weapon
+		"inaccuracy" 1
+		"velocity" 6.45
+		"lifetime" 62
+		"reload" 60
+		"firing energy" 600
+		"firing force" 6
+		"firing heat" 300
+		"hit force" 10
+		"shield damage" 860
+		"hull damage" 276
 	description "to do."
