@@ -92,3 +92,27 @@ outfit "Deci Cell"
 	"energy capacity" 28200
 	"cooling" -1300
 	description "to do."
+
+outfit "Machine Guns"
+	category "Hand to Hand"
+	thumbnail "outfit/todo"
+	"capture attack" 0.5
+	"capture defense" 0.6
+	"unplunderable" 1
+	description "to do."
+
+outfit "Infrared Vision"
+	category "Hand to Hand"
+	thumbnail "outfit/todo"
+	"capture attack" 0.3
+	"capture defense" 1.8
+	"unplunderable" 1
+	description "to do."
+
+outfit "Smoke Grenades"
+	category "Hand to Hand"
+	thumbnail "outfit/todo"
+	"capture attack" 0.4
+	"capture defense" 2.5
+	"unplunderable" 1
+	description "to do."
