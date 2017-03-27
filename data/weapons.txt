@@ -55,3 +55,62 @@ outfit "Flak Anti-Missile"
     "firing energy" 6
     "firing heat" 6
   description "to do."
+
+outfit ""Lancer" Piercing"
+	category "Guns"
+	cost 38000
+	thumbnail "outfit/todo"
+	"mass" 8
+	"outfit space" -0
+	"gun ports" -1
+	weapon
+		"inaccuracy" 3
+		"velocity" 40
+		"lifetime" 8.5
+		"reload" 7.5
+		"firing energy" 3.75
+		"firing heat" 12
+		"shield damage" 2.5
+		"hull damage" 7.5
+		"special damage" 0.35
+	description "to do."
+
+outfit ""Winchester" Long"
+	category "Guns"
+	cost 210000
+	thumbnail "outfit/todo"
+	"mass" 16
+	"outfit space" -0
+	"gun ports" -1
+	weapon
+		"inaccuracy" 1
+		"velocity" 50
+		"lifetime" 18
+		"reload" 30
+		"firing energy" 10
+		"firing force" 6
+		"firing heat" 28
+		"hit force" 6
+		"shield damage" 30
+		"hull damage" 50
+	description "to do."
+
+outfit ""Tsar" Cannon"
+	category "Guns"
+	cost 180000
+	thumbnail "outfit/todo"
+	"mass" 30
+	"outfit space" -0
+	"gun ports" -1
+	weapon
+		"inaccuracy" 4
+		"velocity" 10
+		"lifetime" 40
+		"reload" 60
+		"firing energy" 120
+		"firing force" 12
+		"firing heat" 500
+		"hit force" 12
+		"shield damage" 100
+		"hull damage" 320
+	description "to do."
