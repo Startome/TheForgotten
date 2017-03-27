@@ -174,3 +174,55 @@ outfit "Giga Core"
 	"energy generation" 32.5
 	"heat generation" 109.91
 	description "to do."
+
+# SHIELD GENERATORS
+
+outfit "Small Passive Regenerator"
+	category "Systems"
+	cost 6500
+	thumbnail "outfit/todo"
+	"mass" 6
+	"outfit space" -0
+	"shield generation" 0.1
+	"energy generation" -0.08
+	description "to do."
+
+outfit "Large Passive Regenerator"
+	category "Systems"
+	cost 40000
+	thumbnail "outfit/todo"
+	"mass" 28
+	"outfit space" -0
+	"shield generation" 0.5
+	"energy generation" -0.4
+	description "to do."
+
+outfit "Small Active Regenerator"
+	category "Systems"
+	cost 75000
+	thumbnail "outfit/todo"
+	"mass" 36
+	"outfit space" -0
+	"shield generation" 0.69
+	"shield energy" 0.69
+	description "to do."
+
+outfit "Medium Active Regenerator"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/todo"
+	"mass" 52
+	"outfit space" -0
+	"shield generation" 1.28
+	"shield energy" 1.28
+	description "to do."
+
+outfit "Large Active Regenerator"
+	category "Systems"
+	cost 340000
+	thumbnail "outfit/todo"
+	"mass" 78
+	"outfit space" -0
+	"shield generation" 2.5
+	"shield energy" 2.5
+	description "to do."
