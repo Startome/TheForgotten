@@ -226,3 +226,127 @@ outfit "Large Active Regenerator"
 	"shield generation" 2.5
 	"shield energy" 2.5
 	description "to do."
+
+# STEERING
+
+outfit "Fighter Cleass Steering"
+	category "Engines"
+	cost 15000
+	thumbnail "outfit/todo"
+	"mass" 15
+	"outfit space" -0
+	"engine capacity" -0
+	"turn" 200
+	"turning energy" 0.38
+	"turning heat" 1
+	description "to do."
+
+outfit "Merchant Class Steering"
+	category "Engines"
+	cost 37500
+	thumbnail "outfit/todo"
+	"mass" 30
+	"outfit space" -0
+	"engine capacity" -0
+	"turn" 450
+	"turning energy" 0.82
+	"turning heat" 1.75
+	description "to do."
+
+outfit "Patrol Class Steering"
+	category "Engines"
+	cost 250000
+	thumbnail "outfit/todo"
+	"mass" 250000
+	"outfit space" -0
+	"engine capacity" -0
+	"turn" 800
+	"turning energy" 1.6
+	"turning heat" 4.1
+	description "to do."
+
+outfit "Warship Class Steering"
+	category "Engines"
+	cost 588000
+	thumbnail "outfit/todo"
+	"mass" 60
+	"outfit space" -0
+	"engine capacity" -0
+	"turn" 1750
+	"turning energy" 3.8
+	"turning heat" 9.47
+	description "to do."
+
+outfit "Capital Class Steering"
+	category "Engines"
+	cost 1196000
+	thumbnail "outfit/todo"
+	"mass" 80
+	"outfit space" -0
+	"engine capacity" -0
+	"turn" 3100
+	"turning energy" 6.97
+	"turning heat" 17.5
+	description "to do."
+
+# THRUSTERS
+
+outfit "Fighter Class Steering"
+	category "Engines"
+	cost 10000
+	thumbnail "outfit/todo"
+	"mass" 15
+	"outfit space" -0
+	"engine capacity" -0
+	"thrust" 5
+	"thrusting energy" 0.5
+	"thrusting heat" 1.33
+	description "to do."
+
+outfit "Merchant Class Steering"
+	category "Engines"
+	cost 25750
+	thumbnail "outfit/todo"
+	"mass" 30
+	"outfit space" -0
+	"engine capacity" -0
+	"thrust" 10.83
+	"thrusting energy" 1
+	"thrusting heat" 1.83
+	description "to do."
+
+outfit "Patrol Class Steering"
+	category "Engines"
+	cost 358500
+	thumbnail "outfit/todo"
+	"mass" 40
+	"outfit space" -0
+	"engine capacity" -0
+	"thrust" 35.56
+	"thrusting energy"
+	"thrusting heat"
+	description "to do."
+
+outfit "Warship Class Steering"
+	category "Engines"
+	cost 730000
+	thumbnail "outfit/todo"
+	"mass" 60
+	"outfit space" -0
+	"engine capacity" -0
+	"thrust" 63.33
+	"thrusting energy" 7.6
+	"thrusting heat" 19.45
+	description "to do."
+
+outfit "Capital Class Steering"
+	category "Engines"
+	cost 1400000
+	thumbnail "outfit/todo"
+	"mass" 80
+	"outfit space" -0
+	"engine capacity" -0
+	"thrust" 103.5
+	"thrusting energy" 12.52
+	"thrusting heat" 32.28
+	description "to do."
