@@ -56,7 +56,7 @@ outfit "Flak Anti-Missile"
     "firing heat" 6
   description "to do."
 
-outfit ""Lancer" Piercing"
+outfit `"Lancer" Piercing`
 	category "Guns"
 	cost 38000
 	thumbnail "outfit/todo"
@@ -75,7 +75,7 @@ outfit ""Lancer" Piercing"
 		"special damage" 0.35
 	description "to do."
 
-outfit ""Winchester" Long"
+outfit `"Winchester" Long`
 	category "Guns"
 	cost 210000
 	thumbnail "outfit/todo"
@@ -95,7 +95,7 @@ outfit ""Winchester" Long"
 		"hull damage" 50
 	description "to do."
 
-outfit ""Tsar" Cannon"
+outfit `"Tsar" Cannon`
 	category "Guns"
 	cost 180000
 	thumbnail "outfit/todo"
