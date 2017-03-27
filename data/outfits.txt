@@ -8,6 +8,8 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
+# COOLING
+
 outfit "Small Heat Sink"
 	category "Systems"
 	cost 5250
@@ -43,6 +45,8 @@ outfit "Heat Sink Network"
 	"outfit space" -0
 	"cooling" 53.3
 	description "to do."
+
+# POWER STORAGE
 
 outfit "Nano Cell"
 	category "Power"
@@ -93,6 +97,8 @@ outfit "Deci Cell"
 	"cooling" -1300
 	description "to do."
 
+# HAND TO HAND
+
 outfit "Machine Guns"
 	category "Hand to Hand"
 	thumbnail "outfit/todo"
@@ -115,4 +121,56 @@ outfit "Smoke Grenades"
 	"capture attack" 0.4
 	"capture defense" 2.5
 	"unplunderable" 1
+	description "to do."
+
+# POWER GENERATION
+
+outfit "Deca Core"
+	category "Power"
+	cost 54000
+	thumbnail "outfit/todo"
+	"mass" 25
+	"outfit space" -0
+	"energy generation" 1.47
+	"heat generation" 2.3
+	description "to do."
+
+outfit "Hecto Core"
+	category "Power"
+	cost 146000
+	thumbnail "outfit/todo"
+	"mass" 45
+	"outfit space" -0
+	"energy generation" 3
+	"heat generation" 4.5
+	description "to do."
+
+outfit "Kilo Core"
+	category "Power"
+	cost 1800000
+	thumbnail "outfit/todo"
+	"mass" 75
+	"outfit space" -0
+	"energy generation" 12.7
+	"heat generation" 39.5
+	description "to do."
+
+outfit "Mega Core"
+	category "Power"
+	cost 5400000
+	thumbnail "outfit/todo"
+	"mass" 105
+	"outfit space" -0
+	"energy generation" 19.6
+	"heat generation" 62.52
+	description "to do."
+
+outfit "Giga Core"
+	category "Power"
+	cost 11000000
+	thumbnail "outfit/todo"
+	"mass" 160
+	"outfit space" -0
+	"energy generation" 32.5
+	"heat generation" 109.91
 	description "to do."
