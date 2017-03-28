@@ -291,7 +291,7 @@ outfit "Capital Class Steering"
 
 # THRUSTERS
 
-outfit "Fighter Class Steering"
+outfit "Fighter Class Thrusters"
 	category "Engines"
 	cost 10000
 	thumbnail "outfit/todo"
@@ -303,7 +303,7 @@ outfit "Fighter Class Steering"
 	"thrusting heat" 1.33
 	description "to do."
 
-outfit "Merchant Class Steering"
+outfit "Merchant Class Thrusters"
 	category "Engines"
 	cost 25750
 	thumbnail "outfit/todo"
@@ -315,7 +315,7 @@ outfit "Merchant Class Steering"
 	"thrusting heat" 1.83
 	description "to do."
 
-outfit "Patrol Class Steering"
+outfit "Patrol Class Thrusters"
 	category "Engines"
 	cost 358500
 	thumbnail "outfit/todo"
@@ -327,7 +327,7 @@ outfit "Patrol Class Steering"
 	"thrusting heat"
 	description "to do."
 
-outfit "Warship Class Steering"
+outfit "Warship Class Thrusters"
 	category "Engines"
 	cost 730000
 	thumbnail "outfit/todo"
@@ -339,7 +339,7 @@ outfit "Warship Class Steering"
 	"thrusting heat" 19.45
 	description "to do."
 
-outfit "Capital Class Steering"
+outfit "Capital Class Thrusters"
 	category "Engines"
 	cost 1400000
 	thumbnail "outfit/todo"
