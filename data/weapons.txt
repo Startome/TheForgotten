@@ -15,8 +15,8 @@ outfit "Shotgun Anti-Missile"
 	cost 55000
 	thumbnail "outfit/todo"
 	"mass" 14
-  "outfit space" -0
-	"weapon capacity" -0
+  "outfit space" -14
+	"weapon capacity" -14
 	"turret mounts" -1
 	weapon
 		"anti-missile" 30
@@ -32,8 +32,8 @@ outfit "Gatling Anti-Missile"
   cost 115000
   thumbnail "outfit/todo"
   "mass" 20
-  "outfit space" -0
-	"weapon capacity" -0
+  "outfit space" -20
+	"weapon capacity" -20
   "turret mounts" -1
   weapon
     "anti-missile" 3
@@ -49,8 +49,8 @@ outfit "Flak Anti-Missile"
   cost 155000
   thumbnail "outfit/todo"
   "mass" 28
-  "outfit space" -0
-	"weapon capacity" -0
+  "outfit space" -28
+	"weapon capacity" -28
   "turret mounts" -1
   weapon
     "anti-missile" 4
@@ -68,8 +68,8 @@ outfit `"Lancer" Piercing`
 	cost 38000
 	thumbnail "outfit/todo"
 	"mass" 8
-	"outfit space" -0
-	"weapon capacity" -0
+	"outfit space" -8
+	"weapon capacity" -8
 	"gun ports" -1
 	weapon
 		"inaccuracy" 3
@@ -88,8 +88,8 @@ outfit `"Winchester" Long`
 	cost 210000
 	thumbnail "outfit/todo"
 	"mass" 16
-	"outfit space" -0
-	"weapon capacity" -0
+	"outfit space" -16
+	"weapon capacity" -16
 	"gun ports" -1
 	weapon
 		"inaccuracy" 1
@@ -109,8 +109,8 @@ outfit `"Tsar" Cannon`
 	cost 180000
 	thumbnail "outfit/todo"
 	"mass" 30
-	"outfit space" -0
-	"weapon capacity" -0
+	"outfit space" -30
+	"weapon capacity" -30
 	"gun ports" -1
 	weapon
 		"inaccuracy" 4
@@ -132,8 +132,8 @@ outfit "Cannonade"
 	cost 140000
 	thumbnail "outfit/todo"
 	"mass" 36
-	"outfit space" -0
-	"weapon capacity" -0
+	"outfit space" -36
+	"weapon capacity" -36
 	weapon
 		"inaccuracy" 4
 		"velocity" 10
@@ -149,9 +149,9 @@ outfit "Moon Quaker"
 	category "Turrets"
 	cost 240000
 	thumbnail "outfit/todo"
-	"mass"48
-	"outfit space" -0
-	"weapon capacity" -0
+	"mass" 48
+	"outfit space" -48
+	"weapon capacity" -48
 	weapon
 		"inaccuracy" 5
 		"velocity" 12
@@ -170,8 +170,8 @@ outfit "Coil Launcher"
 	cost 620000
 	thumbnail "outfit/todo"
 	"mass" 104
-	"outfit space" -0
-	"weapon capacity" -0
+	"outfit space" -104
+	"weapon capacity" -104
 	weapon
 		"inaccuracy" 1
 		"velocity" 6.45

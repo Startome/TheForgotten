@@ -15,7 +15,7 @@ outfit "Small Heat Sink"
 	cost 5250
 	thumbnail "outfit/todo"
 	"mass" 3
-	"outfit space" -0
+	"outfit space" -3
 	"cooling" 3
 	description "to do."
 
@@ -24,7 +24,7 @@ outfit "Medium Heat Sink"
 	cost 15500
 	thumbnail "outfit/todo"
 	"mass" 7
-	"outfit space" -0
+	"outfit space" -7
 	"cooling 8.2"
 	description "to do."
 
@@ -33,7 +33,7 @@ outfit "Large Heat Sink"
 	cost 48500
 	thumbnail "outfit/todo"
 	"mass" 18
-	"outfit space" -0
+	"outfit space" -18
 	"cooling" 24.6
 	description "to do."
 
@@ -42,7 +42,7 @@ outfit "Heat Sink Network"
 	cost 110000
 	thumbnail "outfit/todo"
 	"mass" 32
-	"outfit space" -0
+	"outfit space" -32
 	"cooling" 53.3
 	description "to do."
 
@@ -53,7 +53,7 @@ outfit "Nano Cell"
 	cost 17500
 	thumbnail "outfit/todo"
 	"mass" 12
-	"outfit space" -0
+	"outfit space" -12
 	"energy capacity" 1000
 	"cooling" 50
 	description "to do."
@@ -63,7 +63,7 @@ outfit "Micro Cell"
 	cost 59000
 	thumbnail "outfit/todo"
 	"mass" 35
-	"outfit space" -0
+	"outfit space" -35
 	"energy capacity" 4025
 	"cooling" 130
 	description "to do."
@@ -73,7 +73,7 @@ outfit "Mili Cell"
 	cost 110000
 	thumbnail "outfit/todo"
 	"mass" 65
-	"outfit space" -0
+	"outfit space" -65
 	"energy capacity" 8100
 	description "to do."
 
@@ -82,7 +82,7 @@ outfit "Centi Cell"
 	cost 195000
 	thumbnail "outfit/todo"
 	"mass" 100
-	"outfit space" -0
+	"outfit space" -100
 	"energy capacity" 14500
 	"cooling" -400
 	description "to do."
@@ -92,7 +92,7 @@ outfit "Deci Cell"
 	cost 375000
 	thumbnail "outfit/todo"
 	"mass" 165
-	"outfit space" -0
+	"outfit space" -165
 	"energy capacity" 28200
 	"cooling" -1300
 	description "to do."
@@ -130,7 +130,7 @@ outfit "Deca Core"
 	cost 54000
 	thumbnail "outfit/todo"
 	"mass" 25
-	"outfit space" -0
+	"outfit space" -25
 	"energy generation" 1.47
 	"heat generation" 2.3
 	description "to do."
@@ -140,7 +140,7 @@ outfit "Hecto Core"
 	cost 146000
 	thumbnail "outfit/todo"
 	"mass" 45
-	"outfit space" -0
+	"outfit space" -45
 	"energy generation" 3
 	"heat generation" 4.5
 	description "to do."
@@ -150,7 +150,7 @@ outfit "Kilo Core"
 	cost 1800000
 	thumbnail "outfit/todo"
 	"mass" 75
-	"outfit space" -0
+	"outfit space" -75
 	"energy generation" 12.7
 	"heat generation" 39.5
 	description "to do."
@@ -160,7 +160,7 @@ outfit "Mega Core"
 	cost 5400000
 	thumbnail "outfit/todo"
 	"mass" 105
-	"outfit space" -0
+	"outfit space" -105
 	"energy generation" 19.6
 	"heat generation" 62.52
 	description "to do."
@@ -170,7 +170,7 @@ outfit "Giga Core"
 	cost 11000000
 	thumbnail "outfit/todo"
 	"mass" 160
-	"outfit space" -0
+	"outfit space" -160
 	"energy generation" 32.5
 	"heat generation" 109.91
 	description "to do."
@@ -182,7 +182,7 @@ outfit "Small Passive Regenerator"
 	cost 6500
 	thumbnail "outfit/todo"
 	"mass" 6
-	"outfit space" -0
+	"outfit space" -6
 	"shield generation" 0.1
 	"energy generation" -0.08
 	description "to do."
@@ -192,7 +192,7 @@ outfit "Large Passive Regenerator"
 	cost 40000
 	thumbnail "outfit/todo"
 	"mass" 28
-	"outfit space" -0
+	"outfit space" -28
 	"shield generation" 0.5
 	"energy generation" -0.4
 	description "to do."
@@ -202,7 +202,7 @@ outfit "Small Active Regenerator"
 	cost 75000
 	thumbnail "outfit/todo"
 	"mass" 36
-	"outfit space" -0
+	"outfit space" -36
 	"shield generation" 0.69
 	"shield energy" 0.69
 	description "to do."
@@ -212,7 +212,7 @@ outfit "Medium Active Regenerator"
 	cost 150000
 	thumbnail "outfit/todo"
 	"mass" 52
-	"outfit space" -0
+	"outfit space" -52
 	"shield generation" 1.28
 	"shield energy" 1.28
 	description "to do."
@@ -222,7 +222,7 @@ outfit "Large Active Regenerator"
 	cost 340000
 	thumbnail "outfit/todo"
 	"mass" 78
-	"outfit space" -0
+	"outfit space" -78
 	"shield generation" 2.5
 	"shield energy" 2.5
 	description "to do."
@@ -234,8 +234,8 @@ outfit "Fighter Cleass Steering"
 	cost 15000
 	thumbnail "outfit/todo"
 	"mass" 15
-	"outfit space" -0
-	"engine capacity" -0
+	"outfit space" -15
+	"engine capacity" -15
 	"turn" 200
 	"turning energy" 0.38
 	"turning heat" 1
@@ -246,8 +246,8 @@ outfit "Merchant Class Steering"
 	cost 37500
 	thumbnail "outfit/todo"
 	"mass" 30
-	"outfit space" -0
-	"engine capacity" -0
+	"outfit space" -30
+	"engine capacity" -30
 	"turn" 450
 	"turning energy" 0.82
 	"turning heat" 1.75
@@ -257,9 +257,9 @@ outfit "Patrol Class Steering"
 	category "Engines"
 	cost 250000
 	thumbnail "outfit/todo"
-	"mass" 250000
-	"outfit space" -0
-	"engine capacity" -0
+	"mass" 40
+	"outfit space" -40
+	"engine capacity" -40
 	"turn" 800
 	"turning energy" 1.6
 	"turning heat" 4.1
@@ -270,8 +270,8 @@ outfit "Warship Class Steering"
 	cost 588000
 	thumbnail "outfit/todo"
 	"mass" 60
-	"outfit space" -0
-	"engine capacity" -0
+	"outfit space" -60
+	"engine capacity" -60
 	"turn" 1750
 	"turning energy" 3.8
 	"turning heat" 9.47
@@ -282,8 +282,8 @@ outfit "Capital Class Steering"
 	cost 1196000
 	thumbnail "outfit/todo"
 	"mass" 80
-	"outfit space" -0
-	"engine capacity" -0
+	"outfit space" -80
+	"engine capacity" -80
 	"turn" 3100
 	"turning energy" 6.97
 	"turning heat" 17.5
@@ -296,8 +296,8 @@ outfit "Fighter Class Thrusters"
 	cost 10000
 	thumbnail "outfit/todo"
 	"mass" 15
-	"outfit space" -0
-	"engine capacity" -0
+	"outfit space" -15
+	"engine capacity" -15
 	"thrust" 5
 	"thrusting energy" 0.5
 	"thrusting heat" 1.33
@@ -308,8 +308,8 @@ outfit "Merchant Class Thrusters"
 	cost 25750
 	thumbnail "outfit/todo"
 	"mass" 30
-	"outfit space" -0
-	"engine capacity" -0
+	"outfit space" -30
+	"engine capacity" -30
 	"thrust" 10.83
 	"thrusting energy" 1
 	"thrusting heat" 1.83
@@ -320,8 +320,8 @@ outfit "Patrol Class Thrusters"
 	cost 358500
 	thumbnail "outfit/todo"
 	"mass" 40
-	"outfit space" -0
-	"engine capacity" -0
+	"outfit space" -40
+	"engine capacity" -40
 	"thrust" 35.56
 	"thrusting energy"
 	"thrusting heat"
@@ -332,8 +332,8 @@ outfit "Warship Class Thrusters"
 	cost 730000
 	thumbnail "outfit/todo"
 	"mass" 60
-	"outfit space" -0
-	"engine capacity" -0
+	"outfit space" -60
+	"engine capacity" -60
 	"thrust" 63.33
 	"thrusting energy" 7.6
 	"thrusting heat" 19.45
@@ -344,8 +344,8 @@ outfit "Capital Class Thrusters"
 	cost 1400000
 	thumbnail "outfit/todo"
 	"mass" 80
-	"outfit space" -0
-	"engine capacity" -0
+	"outfit space" -80
+	"engine capacity" -80
 	"thrust" 103.5
 	"thrusting energy" 12.52
 	"thrusting heat" 32.28
