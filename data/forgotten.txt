@@ -1,0 +1,56 @@
+# Copyright (c) 2014-2016 by Michael Zahniser
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+outfitter "Forgotten Basics"
+  `"Lancer" Piercing`
+  "Small Heat Sink"
+  "Nano Cell"
+  "Deca Core"
+  "Small Passive Regenerator"
+  "Fighter Cleass Steering"
+  "Fighter Cleass Thrusters"
+
+outfitter "Forgotten Intermediate"
+  "Shotgun Anti-Missile"
+  "Gatling Anti-Missile"
+  `"Winchester" Long`
+  "Cannonade"
+  "Medium Heat Sink"
+  "Large Heat Sink"
+  "Mili Cell"
+  "Micro Cell"
+  "Machine Guns"
+  "Hecto Core"
+  "Kilo Core"
+  "Medium Passive Regenerator"
+  "Small Active Regenerator"
+  "Merchant Class Steering"
+  "Merchant Class Thrusters"
+  "Patrol Class Steering"
+  "Patrol Class Thrusters"
+
+outfitter "Forgotten Advanced"
+  "Flak Anti-Missile"
+  `"Tsar" Cannon`
+  "Moon Quaker"
+  "Coil Launcher"
+  "Heat Sink Network"
+  "Centi Cell"
+  "Deci Cell"
+  "Infrared Vision"
+  "Smoke Grenades"
+  "Mega Core"
+  "Giga Core"
+  "Medium Active Regenerator"
+  "Large Active Regenerator"
+  "Warship Class Steering"
+  "Warship Class Thrusters"
+  "Capital Class Steering"
+  "Capital Class Thrusters"
