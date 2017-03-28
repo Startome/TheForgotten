@@ -184,3 +184,131 @@ outfit "Coil Launcher"
 		"shield damage" 860
 		"hull damage" 276
 	description "to do."
+
+# SECONDARIES (MISSILES)
+
+outfit "Polybolos Missile"
+	category "Ammunition"
+	cost 40
+	thumbnail "outfit/todo"
+	"mass" 0.1
+	"polybolos capacity" -1
+	description "to do."
+
+outfit "Polybolos Launcher"
+	category "Secondary Weapons"
+	cost 18000
+	thumbnail "outfit/todo"
+	"mass" 8
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	"polybolos capacity" 400
+	weapon
+		sprite "projectile/todo"
+			"frame rate" 10
+			"random start frame"
+		sound "polybolos"
+		ammo "Polybolos Missile"
+		icon "icon/todo"
+		"inaccuracy" 10
+		"velocity" 16
+		"lifetime" 180
+		"reload" 20
+		"firing energy" 0.1
+		"firing heat" 8
+		"acceleration" 1
+		"drag" 0.06
+		"turn" 6
+		"homing" 2
+		"optical tracking" 0.4
+		"infrared tracking" 0.5
+		"shield damage" 10
+		"hull damage" 40
+		"hit force" 0
+		"missile strength" 8
+	description "to do."
+
+outfit "Kestros Missile"
+	category "Ammunition"
+	cost 600
+	thumbnail "outfit/todo"
+	"mass" 0.2
+	"kestros capacity" -1
+	description "to do."
+
+outfit "Kestros Launcher"
+	category "Secondary Weapons"
+	cost 30500
+	thumbnail "outfit/todo"
+	"mass" 12
+	"outfit space" -16
+	"weapon capacity" -16
+	"gun ports" -1
+	"kestros capacity" 80
+	weapon
+		sprite "projectile/todo"
+			"frame rate" 10
+			"random start frame"
+		sound "kestros"
+		ammo "Kestros Missile"
+		icon "icon/todo"
+		"inaccuracy" 2
+		"velocity" 12
+		"lifetime" 320
+		"reload" 50
+		"firing energy" 1
+		"firing heat" 18
+		"acceleration" 0.5
+		"drag" 0.1
+		"turn" 4
+		"homing" 4
+		"optical tracking" 0.8
+		"infrared tracking" 0.9
+		"shield damage" 80
+		"hull damage" 130
+		"hit force" 5
+		"missile strength" 12
+	description "to do."
+
+outfit "Harbinger Missile"
+	category "Ammunition"
+	cost 1500
+	thumbnail "outfit/todo"
+	"mass" 0.4
+	"harbinger capacity" -1
+	description "to do."
+
+outfit "Harbinger Launcher"
+	category "Secondary Weapons"
+	cost 80000
+	thumbnail "outfit/todo"
+	"mass" 24
+	"outfit space" -24
+	"weapon capacity" -24
+	"gun ports" -1
+	"harbinger capacity" 39
+	weapon
+		sprite "projectile/todo"
+			"frame rate" 10
+			"random start frame"
+		sound "harbinger"
+		ammo "Harbinger Missile"
+		icon "icon/todo"
+		"inaccuracy" 4
+		"velocity" 5
+		"lifetime" 600
+		"reload" 120
+		"firing energy" 3
+		"firing heat" 24
+		"acceleration" 0.5
+		"drag" 0.1
+		"turn" 2
+		"homing" 3
+		"optical tracking" 0.4
+		"infrared tracking" 0.9
+		"shield damage" 550
+		"hull damage" 750
+		"hit force" 80
+		"missile strength" 20
+	description "to do."
