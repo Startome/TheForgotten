@@ -45,9 +45,6 @@ ship "The Ranger"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "Like everything else in the New Systems, The Ranger is designed for maximum cost effectiveness. This fighter serves as a long range mobile defense platform. They are often seeded around a planet’s orbit to defend the system from attack, and on the offensive they can be deployed from carriers to quickly add a lot of firepower to an engagement. Small battles have been won or lost based on a commander’s ability to wisely use these platforms."
-  
-  
-  
 
 ship "Halberd"
 	sprite "ship/todo"
@@ -85,8 +82,6 @@ ship "Halberd"
 	explode "small explosion" 5
 	description "The attack fighter frame is designed to fill multiple roles. In the case of the Halberd it carries a single piecing weapon designed to weaken larger foes before friendly combat ships enter engagement range. Most Halberd pilots rate themselves on how many times their escape pod has been recovered in battle as a mark of honor, instead of ‘kills’ as is traditional among fighter crews."
 
-  
-  
 ship "Archer"
 	sprite "ship/todo"
 	attributes
@@ -123,6 +118,35 @@ ship "Archer"
 	explode "small explosion" 5
 	description "The attack fighter frame is designed to fill multiple roles. In the case of the Arches it is outfitted with a single combat missile launcher and a small supply of ammunition. Once it has fired all it’s ammunition it must retire from the battle or attempt to draw the fire of the enemy."
 
-  
-  
-    
+# HEAVY FREIGHTERS
+
+ship "Galleon"
+	sprite "ship/todo"
+	attributes
+		category "Heavy Freighter"
+		"cost" 11200000
+		"shields" 3000
+		"hull" 10800
+		"required crew" 8
+		"bunks" 15
+		"mass" 940
+		"drag" 14.5
+		"heat dissipation" 0.5
+		"cargo" 640
+		"fuel capacity" 400
+		"outfit space" 380
+		"weapon capacity" 200
+		"engine capacity" 100
+		weapon
+			"blast radius" 160
+			"shield damage" 1500
+			"hull damage 700"
+			"hit force" 1800
+		outfits
+
+		explode "small explosion" 13
+		explode "medium explosion" 23
+		explode "big explosion" 33
+		explode "huge explosion" 26
+		"final explode" "final explosion large"
+		description "to do."
