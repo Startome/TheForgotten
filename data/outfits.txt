@@ -229,7 +229,7 @@ outfit "Large Active Regenerator"
 
 # STEERING
 
-outfit "Fighter Cleass Steering"
+outfit "Fighter Class Steering"
 	category "Engines"
 	cost 15000
 	thumbnail "outfit/todo"

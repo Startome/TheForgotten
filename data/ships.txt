@@ -11,53 +11,118 @@
 # FIGHTERS AND DRONES
 
 ship "The Ranger"
-  sprite "ship/todo"
-  attributes
-    category "Fighter"
-    "cost" 60000
-    "shields" 200
-    "hull" 1000
-    "required crew" 1
-    "bunks" 1
-    "mass" 60
-    "drag" 0.8
-    "heat dissipation" 0.8
-    "outfit space" 100
-    "weapon capacity" 20
-    "engine capacity" 30
-    weapon
-      "blast radius" 12
-      "shield damage" 120
-      "hull damage" 60
-      "hit force" 180
-  outfits
+	sprite "ship/todo"
+	attributes
+		category "Fighter"
+		"cost" 60000
+		"shields" 200
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 60
+		"drag" 0.8
+		"heat dissipation" 0.8
+		"outfit space" 100
+		"weapon capacity" 20
+		"engine capacity" 30
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Winchester"
+		
+		"Large Passive Regenerator"
+		"Deca Core"
+		
+		"Fighter Class Steering"
+		"Fighter Class Thrusters"
 
-  explode "tiny explosion" 15
-  explode "small explosion" 5
-  description "to do."
+  	engine -9 29
+	engine 9 29
+	gun 0 -29  "Winchester"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Like everything else in the New Systems, The Ranger is designed for maximum cost effectiveness. This fighter serves as a long range mobile defense platform. They are often seeded around a planet’s orbit to defend the system from attack, and on the offensive they can be deployed from carriers to quickly add a lot of firepower to an engagement. Small battles have been won or lost based on a commander’s ability to wisely use these platforms."
+  
+  
+  
 
 ship "Halberd"
-  sprite "ship/todo"
-  attributes
-    category "Fighter"
-    "cost" 60000
-    "shields" 200
-    "hull" 800
-    "required crew" 1
-    "bunks" 1
-    "mass" 50
-    "drag" 0.7
-    "heat dissipation" 0.8
-    "outfit space" 100
-    "weapon capacity" 10
-    "engine capacity" 45
-    weapon
-      "blast radius" 12
-      "shield damage" 120
-      "hull damage" 60
-      "hit force" 180
-  outfits
+	sprite "ship/todo"
+	attributes
+		category "Fighter"
+		"cost" 60000
+		"shields" 200
+		"hull" 800
+		"required crew" 1
+		"bunks" 1
+		"mass" 50
+		"drag" 0.7
+		"heat dissipation" 0.8
+		"outfit space" 110
+		"weapon capacity" 10
+		"engine capacity" 45
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Lancer"
+		
+		"Small Passive Regenerator" 2
+		"Hecto Core"
+		
+		"Fighter Class Steering"
+		"Merchant Class Thrusters"
 
-  explode "tiny explosion" 15
-  explode "small explosion" 5
-  description "to do."
+  	engine -9 29
+	engine 9 29
+	gun 0 -29 "Lancer"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "The attack fighter frame is designed to fill multiple roles. In the case of the Halberd it carries a single piecing weapon designed to weaken larger foes before friendly combat ships enter engagement range. Most Halberd pilots rate themselves on how many times their escape pod has been recovered in battle as a mark of honor, instead of ‘kills’ as is traditional among fighter crews."
+
+  
+  
+ship "Archer"
+	sprite "ship/todo"
+	attributes
+		category "Fighter"
+		"cost" 60000
+		"shields" 200
+		"hull" 800
+		"required crew" 1
+		"bunks" 1
+		"mass" 50
+		"drag" 0.7
+		"heat dissipation" 0.8
+		"outfit space" 110
+		"weapon capacity" 10
+		"engine capacity" 45
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Polybolos Launcher"
+		
+		"Small Passive Regenerator" 2
+		"Hecto Core"
+		
+		"Fighter Class Steering"
+		"Merchant Class Thrusters"
+
+  	engine -9 29
+	engine 9 29
+	gun 0 -29 "Polybolos Launcher"
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "The attack fighter frame is designed to fill multiple roles. In the case of the Arches it is outfitted with a single combat missile launcher and a small supply of ammunition. Once it has fired all it’s ammunition it must retire from the battle or attempt to draw the fire of the enemy."
+
+  
+  
+    
