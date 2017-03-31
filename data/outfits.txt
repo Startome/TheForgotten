@@ -55,7 +55,7 @@ outfit "Nano Cell"
 	"mass" 12
 	"outfit space" -12
 	"energy capacity" 1000
-	"cooling" 50
+	"cooling" .833
 	description "to do."
 
 outfit "Micro Cell"
@@ -65,7 +65,7 @@ outfit "Micro Cell"
 	"mass" 35
 	"outfit space" -35
 	"energy capacity" 4025
-	"cooling" 130
+	"cooling" 2.167
 	description "to do."
 
 outfit "Mili Cell"
@@ -84,7 +84,7 @@ outfit "Centi Cell"
 	"mass" 100
 	"outfit space" -100
 	"energy capacity" 14500
-	"cooling" -400
+	"cooling" -6.667
 	description "to do."
 
 outfit "Deci Cell"
@@ -94,7 +94,7 @@ outfit "Deci Cell"
 	"mass" 165
 	"outfit space" -165
 	"energy capacity" 28200
-	"cooling" -1300
+	"cooling" -21.667
 	description "to do."
 
 # HAND TO HAND
@@ -323,8 +323,8 @@ outfit "Patrol Class Thrusters"
 	"outfit space" -40
 	"engine capacity" -40
 	"thrust" 35.56
-	"thrusting energy"
-	"thrusting heat"
+	"thrusting energy" 4.1
+	"thrusting heat" 10.67
 	description "to do."
 
 outfit "Warship Class Thrusters"
