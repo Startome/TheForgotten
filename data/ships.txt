@@ -146,14 +146,14 @@ ship "Galleon"
 		"Gatling Anti-Missile" 2
 		"Flak Anti-Missile" 2
 		"Cannonade" 2
-		
+
 		"Hecto Core"
 		"Micro Cell"
 		"Large Passive Regenerator"
-		
+
 		"Patrol Class Steering"
 		"Merchant Class Thrusters" 2
-		
+
 	engine -34 154
 	engine 34 154
 	turret -34 -64 "Gatling Anti-Missile"
@@ -233,4 +233,63 @@ ship "Invincible"
 	explode "large explosion" 70
 	explode "huge explosion" 16
 	"final explosion" "final explosion large"
+	description "to do."
+
+# INTERCEPTORS
+
+ship "Mine-Layer"
+	sprite "ship/todo"
+	attributes
+		category "Interceptor"
+		"cost" 420000
+		"shields" 600
+		"hull" 800
+		"required crew" 1
+		"bunks" 2
+		"mass" 100
+		"drag" 2.2
+		"heat dissipation" 0.6
+		"fuel capacity" 400
+		"cargo space" 15
+		"outfit space" 100
+		"weapon capacity" 20
+		"engine capacity" 60
+		weapon
+			"blast radius" 60
+			"shield damage" 480
+			"hull damage" 220
+			"hit force" 640
+	outfits
+
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 2
+	description "to do."
+
+ship "Bolas"
+	sprite "ship/todo"
+	attributes
+		category "Interceptor"
+		"cost" 620000
+		"shields" 800
+		"hull" 2200
+		"required crew" 1
+		"bunks" 1
+		"mass" 120
+		"drag" 1.4
+		"heat dissipation" 0.8
+		"fuel capacity" 400
+		"cargo space" 10
+		"outfit space" 170
+		"weapon capacity" 20
+		"engine capacity" 75
+		weapon
+			"blast radius" 40
+			"shield damage" 280
+			"hull damage" 160
+			"hit force" 380
+	outfits
+
+	explode "tiny explosion" 15
+	explode "small explosion" 10
 	description "to do."
