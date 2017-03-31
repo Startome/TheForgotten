@@ -134,6 +134,7 @@ outfit "Cannonade"
 	"mass" 36
 	"outfit space" -36
 	"weapon capacity" -36
+	"turret mounts" -1
 	weapon
 		"inaccuracy" 4
 		"velocity" 10
@@ -152,6 +153,7 @@ outfit "Moon Quaker"
 	"mass" 48
 	"outfit space" -48
 	"weapon capacity" -48
+	"turret mounts" -1
 	weapon
 		"inaccuracy" 5
 		"velocity" 12
@@ -172,6 +174,7 @@ outfit "Coil Launcher"
 	"mass" 104
 	"outfit space" -104
 	"weapon capacity" -104
+	"turret mounts" -1
 	weapon
 		"inaccuracy" 1
 		"velocity" 6.45

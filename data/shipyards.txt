@@ -9,8 +9,9 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 shipyard "Forgotten Basics"
-  "The Ranger"
-  "Halberd"
-  "Archer"
+	"The Ranger"
+	"Halberd"
+	"Archer"
   
 shipyard "Forgotten Advanced"
+	"Galleon"

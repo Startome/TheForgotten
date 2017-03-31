@@ -132,7 +132,7 @@ ship "Galleon"
 		"mass" 940
 		"drag" 14.5
 		"heat dissipation" 0.5
-		"cargo" 640
+		"cargo space" 640
 		"fuel capacity" 400
 		"outfit space" 380
 		"weapon capacity" 200
@@ -142,11 +142,29 @@ ship "Galleon"
 			"shield damage" 1500
 			"hull damage 700"
 			"hit force" 1800
-		outfits
-
-		explode "small explosion" 13
-		explode "medium explosion" 23
-		explode "big explosion" 33
-		explode "huge explosion" 26
-		"final explode" "final explosion large"
-		description "to do."
+	outfits
+		"Gatling Anti-Missile" 2
+		"Flak Anti-Missile" 2
+		"Cannonade" 2
+		
+		"Hecto Core"
+		"Micro Cell"
+		"Large Passive Regenerator"
+		
+		"Patrol Class Steering"
+		"Merchant Class Thrusters" 2
+		
+	engine -34 154
+	engine 34 154
+	turret -34 -64 "Gatling Anti-Missile"
+	turret 24 78 "Flak Anti-Missile"
+	turret -58 11 "Cannonade"
+	turret 58 11 "Cannonade"
+	turret -24 78 "Flak Anti-Missile"
+	turret 34 -64 "Gatling Anti-Missile"
+	explode "small explosion" 13
+	explode "medium explosion" 23
+	explode "big explosion" 33
+	explode "huge explosion" 26
+	"final explode" "final explosion large"
+	description "The Galleon is named such because it is an extremely large and lumbering trade vessel. While it is slow and heavy, it is extremely well armed and a formidable foe to attack, not to mention the complement of escorts such valuable targets usually have in tow. It is nicknamed the Marquis, as it is the most grand and noble of civilian vessels in the New Systems."
