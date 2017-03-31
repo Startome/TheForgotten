@@ -12,5 +12,8 @@ shipyard "Forgotten Basics"
   "The Ranger"
   "Halberd"
   "Archer"
-  
+
 shipyard "Forgotten Advanced"
+  "Galleon"
+  "Battleship"
+  "Invincible"

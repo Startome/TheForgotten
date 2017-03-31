@@ -32,10 +32,10 @@ ship "The Ranger"
 			"hit force" 180
 	outfits
 		"Winchester"
-		
+
 		"Large Passive Regenerator"
 		"Deca Core"
-		
+
 		"Fighter Class Steering"
 		"Fighter Class Thrusters"
 
@@ -68,10 +68,10 @@ ship "Halberd"
 			"hit force" 180
 	outfits
 		"Lancer"
-		
+
 		"Small Passive Regenerator" 2
 		"Hecto Core"
-		
+
 		"Fighter Class Steering"
 		"Merchant Class Thrusters"
 
@@ -104,10 +104,10 @@ ship "Archer"
 			"hit force" 180
 	outfits
 		"Polybolos Launcher"
-		
+
 		"Small Passive Regenerator" 2
 		"Hecto Core"
-		
+
 		"Fighter Class Steering"
 		"Merchant Class Thrusters"
 
@@ -142,11 +142,77 @@ ship "Galleon"
 			"shield damage" 1500
 			"hull damage 700"
 			"hit force" 1800
-		outfits
+	outfits
 
-		explode "small explosion" 13
-		explode "medium explosion" 23
-		explode "big explosion" 33
-		explode "huge explosion" 26
-		"final explode" "final explosion large"
-		description "to do."
+	explode "small explosion" 13
+	explode "medium explosion" 23
+	explode "big explosion" 33
+	explode "huge explosion" 26
+	"final explode" "final explosion large"
+	description "to do."
+
+# HEAVY WARSHIPS
+
+ship "Battleship"
+	sprite "ship/todo"
+	attributes
+		category "Heavy Warship"
+		"cost" 13800000
+		"shields" 5500
+		"hull" 19500
+		"required crew" 98
+		"bunks" 174
+		"mass""868
+		"drag" 14.2
+		"heat dissipation" 0.65
+		"fuel capacity" 400
+		"cargo space" 120
+		"outfit space" 820
+		"weapon capacity" 400
+		"engine capacity" 220
+		weapon
+			"blast radius" 320
+			"shield damage" 3000
+			"hull damage" 1600
+			"hit force" 4800
+	outfits
+
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 16
+	"final explosion" "final explosion large"
+	description "to do."
+
+ship "Invincible"
+	sprite "ship/todo"
+	attributes
+		category "Heavy Warship"
+		"cost" 36000000
+		"shields" 5500
+		"hull" 19500
+		"required crew" 232
+		"bunks" 384
+		"mass" 2125
+		"drag" 18
+		"heat dissipation" 0.8
+		"fuel capacity" 400
+		"cargo space" 300
+		"outfit space" 1076
+		"weapon capacity" 520
+		"engine capacity" 260
+		weapon
+			"blast radius" 360
+			"shield damage" 3600
+			"hull damage" 1800
+			"hit force" 5400
+	outfits
+
+	explode "tiny explosion" 10
+	explode "small explosion" 30
+	explode "medium explosion" 60
+	explode "large explosion" 70
+	explode "huge explosion" 16
+	"final explosion" "final explosion large"
+	description "to do."
