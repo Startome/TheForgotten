@@ -315,3 +315,79 @@ outfit "Harbinger Launcher"
 		"hit force" 80
 		"missile strength" 20
 	description "The harbinger missile system is an extremely powerful system, however it has it’s fill of drawbacks. While it has the most power of the three missiles mass produced in the New Systems, it is the slowest and weakest homing of all three. When AMT technology advanced, Harbingers become obsolete as they were consistently shot down before reaching their targets. However when the Polybolos missile was created, the Harbinger came back to prominence. The two systems paired are very lethal."
+
+outfit "Stealth Mine"
+	category "Ammunition"
+	cost 500
+	thumbnail "to do."
+	"mass" .3
+	"minelayer capacity" -1
+	description "to do."
+
+outfit "Stealth Mine Rack"
+	category "Ammunition"
+	cost 3250
+	thumbnail "to do."
+	"mass" 1.2
+	"outfit space" -6
+	"minelayer capacity" 9
+	ammo "Stealth Mine"
+	description "to do."
+
+outfit "Stealth Minelayer"
+	category "Secondary Weapons"
+	cost 90000
+	thumbnail "to do."
+	"mass" 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"energy capacity" 20
+	"gun ports" -1
+	"minelayer capacity" 24
+	weapon
+		sprite "to do."
+			"frame rate" .6
+			"no repeat"
+		sound "to do."
+		ammo "Stealth Mine"
+		icon "to do."
+		"fire effect" "minelayer fire"
+		"hit effect" "small explosion"
+		"die effect" "minelayer split" 2
+		"submunition" "Stealth Mine Submunition" 3
+		"inaccuracy" 10
+		"velocity" 3
+		"lifetime" 50
+		"reload" 180
+		"firing energy" 12
+		"firing heat" 12
+		"acceleration" .16
+		"drag" .02
+		"turn" 1
+		"homing" 2
+		"infrared tracking" .3
+		"missile strength" 16
+		"shield damage" 0
+		"hull damage" 0
+		"hit force" 30
+		"stream"
+	description "to do."
+
+outfit "Stealth Mine Submunition"
+	weapon
+		sprite "to do."
+			"frame rate" 1
+			"no repeat"
+		"hit effect" "small explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" 360
+		"lifetime" 1000
+		"random lifetime" 60
+		"acceleration" .00001
+		"velocity" 2
+		"random velocity" 5
+		"drag" .05
+		"shield damage" 40
+		"hull damage" 90
+		"hit force" 20
+		"missile strength" 16

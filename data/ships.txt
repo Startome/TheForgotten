@@ -294,23 +294,31 @@ ship "Mine-Layer"
 		"drag" 2.2
 		"heat dissipation" 0.6
 		"fuel capacity" 400
-		"cargo space" 15
+		"cargo space" 20
 		"outfit space" 100
-		"weapon capacity" 20
-		"engine capacity" 60
+		"weapon capacity" 34
+		"engine capacity" 30
 		weapon
 			"blast radius" 60
 			"shield damage" 480
 			"hull damage" 220
 			"hit force" 640
 	outfits
-
-	gun -9 -17 ""
-	gun 9 -17 ""
+		"Stealth Minelayer" 2
+		"Stealth Mine" 66
+		
+		"Deca Core"
+		"Stealth Mine Rack" 2
+		
+		"Fighter Class Steering"
+		"Fighter Class Thrusters"
+	
+	gun -9 -17 "Stealth Minelayer"
+	gun 9 -17 "Stealth Minelayer"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 2
-	description "Mine-Layers often are stationed at planets to help defend the system and prevent raids by the other factions. However, their primary use has been to accompany a task force with much large ships and lay mines around the battlefield, attempting to screen the larger ships and protect them from direct assault by smaller vessels and fighters. To this end they work quite well, as often a single mine can do substantial damage to a fighter, and prevent the capital ship from wasting its large weapons on smaller threats."
+	description "Mine-Layers often are stationed at planets to help defend the system and prevent raids by the other factions. However, their primary use has been to accompany a task force with much larger ships and lay mines around the battlefield, attempting to screen the larger ships and protect them from direct assault by smaller vessels and fighters. To this end they work quite well, as often a single mine can do substantial damage to a fighter, and prevent the capital ship from wasting its large weapons on smaller threats."
 
 ship "Bolas"
 	sprite "ship/todo"
