@@ -55,7 +55,7 @@ outfit "Nano Cell"
 	"mass" 12
 	"outfit space" -12
 	"energy capacity" 1000
-	"cooling" .833
+	"cooling" 2.167
 	description "to do."
 
 outfit "Micro Cell"
@@ -65,7 +65,7 @@ outfit "Micro Cell"
 	"mass" 35
 	"outfit space" -35
 	"energy capacity" 4025
-	"cooling" 2.167
+	"cooling" .833
 	description "to do."
 
 outfit "Mili Cell"

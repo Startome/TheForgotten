@@ -43,7 +43,7 @@ outfitter "Forgotten Intermediate"
 
 outfitter "Forgotten Advanced"
   "Flak Anti-Missile"
-  `"Tsar" Cannon`
+  "Tsar"
   "Moon Quaker"
   "Coil Launcher"
   "Heat Sink Network"

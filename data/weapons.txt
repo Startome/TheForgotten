@@ -104,7 +104,7 @@ outfit "Winchester"
 		"hull damage" 50
 	description "The Winchester is currently the longest ranged gun in the New Systems. While it does not do a lot of damage, it is highly effective when deployed on ships near the outskirts of a system with a defense fleet positioned in the middle, as is a textbook military strategy at the Confederation Officer School."
 
-outfit `"Tsar" Cannon`
+outfit "Tsar"
 	category "Guns"
 	cost 180000
 	thumbnail "outfit/todo"

@@ -171,7 +171,7 @@ ship "Galleon"
 
 # HEAVY WARSHIPS
 
-ship "Battleship"
+ship "Tsunami"
 	sprite "ship/todo"
 	attributes
 		category "Heavy Warship"
@@ -194,22 +194,41 @@ ship "Battleship"
 			"hull damage" 1600
 			"hit force" 4800
 	outfits
-
+		"Tsar" 4
+		"Cannonade" 2
+		
+		"Large Active Regenerator" 
+		"Medium Active Regenerator"
+		"Giga Core"
+		"Heat Sink Network" 2
+		"Centi Cell"
+		
+		"Capital Class Steering"
+		"Capital Class Thrusters"
+		
+	engine -17 143
+	engine 17 143
+	gun -17 -88 "Tsar"
+	gun 17 -88 "Tsar"
+	gun -17 -88 "Tsar"
+	gun 17 -88 "Tsar"
+	turret -57 40 "Cannonade"
+	turret 57 40 "Cannonade"
 	explode "tiny explosion" 20
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 16
 	"final explosion" "final explosion large"
-	description "to do."
+	description "The Tsunami Battleship is the largest production ship in the New Systems, and most battle groups are built around these powerful vessels. They are usually designed with small ship support in mind, and are usually bare of any missile protection. What they lack in self-defense, they more than make up for in aggressive power. Few ships can even withstand seconds of a Battleships attention, not to mention hope for victory. In any major battle, they are the primary target of the enemy navy."
 
 ship "Invincible"
 	sprite "ship/todo"
 	attributes
 		category "Heavy Warship"
 		"cost" 36000000
-		"shields" 5500
-		"hull" 19500
+		"shields" 12000
+		"hull" 65000
 		"required crew" 232
 		"bunks" 384
 		"mass" 2125
@@ -226,14 +245,39 @@ ship "Invincible"
 			"hull damage" 1800
 			"hit force" 5400
 	outfits
+		"Coil Launcher" 2
+		"Flak Anti-Missile"
+		"Gatling Anti-Missile"
+		"Tsar" 6
+		
+		"Large Active Regenerator"
+		"Heat Sink Network"
+		"Giga Core"
+		"Deca Core"
+		"Centi Cell"
+		
+		"Capital Class Steering" 2
+		"Capital Class Thrusters"
 
+	engine -29 156
+	engine 29 156
+	gun -41 -52 "Tsar"
+	gun 41 -52 "Tsar"
+	gun -31 -63 "Tsar"
+	gun 31 -63 "Tsar"
+	gun -20 -44 "Tsar"
+	gun 20 -44 "Tsar"
+	turret 0 -40 "Flak Anti-Missile"
+	turret -33 -19 "Coil Launcher"
+	turret 33 -19 "Coil Launcher"
+	turret 0 0 "Gatling Anti-Missile"
 	explode "tiny explosion" 10
 	explode "small explosion" 30
 	explode "medium explosion" 60
 	explode "large explosion" 70
 	explode "huge explosion" 16
 	"final explosion" "final explosion large"
-	description "to do."
+	description "The Invincible class ships are prototypes in the New Systems that are just crossing over into active military service. They have the newest possible technologies implemented in all areas. Including the biggest engines, most shield projectors, most weapon hard points, and newest weapons which are too large to fit on any other vessels in use. It would take two or three of the next largest vessels to effectively battle just one of these capital ships. This monstrosity is so advanced that despite the incredible wealth amassed to build them, they are rigged to explode if enough intruders are detected onboard. The factions would rather suffer their loss than have such a power be obtained by their opponents at their expense."
 
 # INTERCEPTORS
 
@@ -261,10 +305,12 @@ ship "Mine-Layer"
 			"hit force" 640
 	outfits
 
+	gun -9 -17 ""
+	gun 9 -17 ""
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 2
-	description "to do."
+	description "Mine-Layers often are stationed at planets to help defend the system and prevent raids by the other factions. However, their primary use has been to accompany a task force with much large ships and lay mines around the battlefield, attempting to screen the larger ships and protect them from direct assault by smaller vessels and fighters. To this end they work quite well, as often a single mine can do substantial damage to a fighter, and prevent the capital ship from wasting its large weapons on smaller threats."
 
 ship "Bolas"
 	sprite "ship/todo"
@@ -289,7 +335,20 @@ ship "Bolas"
 			"hull damage" 160
 			"hit force" 380
 	outfits
-
+		"Lancer" 2
+		
+		"Small Heat Sink"
+		"Hecto Core"
+		"Micro Cell"
+		
+		"Fighter Class Steering"
+		"Fighter Class Thrusters"
+		"Patrol Class Thrusters"
+	
+	engine -24 41
+	engine 24 41
+	gun -9 -17 "Lancer"
+	gun 9 -17 "Lancer"
 	explode "tiny explosion" 15
 	explode "small explosion" 10
-	description "to do."
+	description "’The bridge of a Fast Attack Ship is anything but roomy or comfortable’ - J. Allan. Most captains of these vessels are a unique sort; a type who has little fear, and a lot of patience. That is to keep them from going mad cramped into the tiny spaces in the interior of these vessels.  Originally designed to run messages and mail back and forth quickly between systems, they were promptly adopted for military use due to their speed and firepower being so great for their cost. These ships are usually very fast, and slow to turn. This makes them great for quick hitting, but fleeing before they can be shot in return."

@@ -16,6 +16,6 @@ shipyard "Forgotten Basics"
 
 shipyard "Forgotten Advanced"
   "Galleon"
-  "Battleship"
+  "Tsunami"
   "Invincible"
   "Bolas"
