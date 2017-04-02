@@ -80,7 +80,7 @@ outfit "Lancer"
 		"firing heat" 12
 		"shield damage" 2.5
 		"hull damage" 7.5
-		"special damage" 0.35
+		"piercing damage" 0.35
 	description "The Lancer was named for an ancient weapon that was designed to go through a foe’s body protection. Just like its ancient kin, the Lancer is built to go through it’s foe’s protection and damage the hull directly. The projectile required must be so small though, that it does not do an immense amount of damage. Because of this it has been limited to use in small vessels and patrol craft."
 
 outfit "Winchester"

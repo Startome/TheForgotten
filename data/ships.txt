@@ -140,7 +140,7 @@ ship "Galleon"
 		weapon
 			"blast radius" 160
 			"shield damage" 1500
-			"hull damage 700"
+			"hull damage" 700
 			"hit force" 1800
 	outfits
 		"Gatling Anti-Missile" 2
@@ -180,7 +180,7 @@ ship "Tsunami"
 		"hull" 19500
 		"required crew" 98
 		"bunks" 174
-		"mass""868
+		"mass" 868
 		"drag" 14.2
 		"heat dissipation" 0.65
 		"fuel capacity" 400
@@ -219,7 +219,7 @@ ship "Tsunami"
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 16
-	"final explosion" "final explosion large"
+	"final explode" "final explosion large"
 	description "The Tsunami Battleship is the largest production ship in the New Systems, and most battle groups are built around these powerful vessels. They are usually designed with small ship support in mind, and are usually bare of any missile protection. What they lack in self-defense, they more than make up for in aggressive power. Few ships can even withstand seconds of a Battleships attention, not to mention hope for victory. In any major battle, they are the primary target of the enemy navy."
 
 ship "Invincible"
@@ -276,7 +276,7 @@ ship "Invincible"
 	explode "medium explosion" 60
 	explode "large explosion" 70
 	explode "huge explosion" 16
-	"final explosion" "final explosion large"
+	"final explode" "final explosion large"
 	description "The Invincible class ships are prototypes in the New Systems that are just crossing over into active military service. They have the newest possible technologies implemented in all areas. Including the biggest engines, most shield projectors, most weapon hard points, and newest weapons which are too large to fit on any other vessels in use. It would take two or three of the next largest vessels to effectively battle just one of these capital ships. This monstrosity is so advanced that despite the incredible wealth amassed to build them, they are rigged to explode if enough intruders are detected onboard. The factions would rather suffer their loss than have such a power be obtained by their opponents at their expense."
 
 # INTERCEPTORS

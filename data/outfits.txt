@@ -25,7 +25,7 @@ outfit "Medium Heat Sink"
 	thumbnail "outfit/todo"
 	"mass" 7
 	"outfit space" -7
-	"cooling 8.2"
+	"cooling" 8.2
 	description "to do."
 
 outfit "Large Heat Sink"
