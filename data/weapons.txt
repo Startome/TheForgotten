@@ -105,7 +105,7 @@ outfit "Winchester"
 	"gun ports" -1
 	weapon
 		sprite "projectile/winchester shell"
-		sound "to do"
+		sound "barret"
 		"hit effect" "to do"
 		"inaccuracy" 1
 		"velocity" 15

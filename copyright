@@ -10,3 +10,7 @@ License: GPL-3+
 Files: images/label/*
 Copyright: Copyright MCOfficer <mcofficer@gmx.de>
 License: CC-BY-SA-4.0
+
+Files: sounds/barret
+Copyright: Recorded by Mike Koenig
+License: CC-BY-3.0
