@@ -11,7 +11,7 @@
 # FIGHTERS AND DRONES
 
 ship "The Ranger"
-	sprite "ship/todo"
+	sprite "ship/theranger"
 	attributes
 		category "Fighter"
 		"cost" 60000
