@@ -19,6 +19,9 @@ outfit "Shotgun Anti-Missile"
 	"weapon capacity" -14
 	"turret mounts" -1
 	weapon
+		sprite "projectile/to do"
+		sound "to do"
+		"hit effect" "to do"
 		"anti-missile" 30
 		"velocity" 100
 		"lifetime" 1
@@ -36,6 +39,9 @@ outfit "Gatling Anti-Missile"
 	"weapon capacity" -20
 	"turret mounts" -1
 	weapon
+		sprite "projectile/to do"
+		sound "to do"
+		"hit effect" "to do"
 		"anti-missile" 3
 		"velocity" 240
 		"lifetime" 1
@@ -53,6 +59,9 @@ outfit "Flak Anti-Missile"
 	"weapon capacity" -28
 	"turret mounts" -1
 	weapon
+		sprite "projectile/to do"
+		sound "to do"
+		"hit effect" "to do"
 		"anti-missile" 4
 		"velocity" 420
 		"lifetime" 1
@@ -72,6 +81,9 @@ outfit "Lancer"
 	"weapon capacity" -8
 	"gun ports" -1
 	weapon
+		sprite "projectile/to do"
+		sound "to do"
+		"hit effect" "to do"
 		"inaccuracy" 3
 		"velocity" 40
 		"lifetime" 8.5
@@ -92,17 +104,20 @@ outfit "Winchester"
 	"weapon capacity" -16
 	"gun ports" -1
 	weapon
+		sprite "projectile/winchester shell"
+		sound "to do"
+		"hit effect" "to do"
 		"inaccuracy" 1
-		"velocity" 50
-		"lifetime" 18
-		"reload" 30
-		"firing energy" 10
-		"firing force" 6
-		"firing heat" 28
-		"hit force" 6
-		"shield damage" 30
-		"hull damage" 50
-	description "The Winchester is currently the longest ranged gun in the New Systems. While it does not do a lot of damage, it is highly effective when deployed on ships near the outskirts of a system with a defense fleet positioned in the middle, as is a textbook military strategy at the Confederation Officer School."
+		"velocity" 15
+		"lifetime" 60
+		"reload" 120
+		"firing energy" 40
+		"firing force" 24
+		"firing heat" 104
+		"hit force" 24
+		"shield damage" 120
+		"hull damage" 200
+	description "The Winchester is currently the longest ranged gun in the New Systems. While it does not do a lot of damage per second, it is highly effective when deployed on ships near the outskirts of a system with a defense fleet positioned in the middle, as is a textbook military strategy at the Confederation Officer School."
 
 outfit "Tsar"
 	category "Guns"
@@ -113,6 +128,9 @@ outfit "Tsar"
 	"weapon capacity" -30
 	"gun ports" -1
 	weapon
+		sprite "projectile/to do"
+		sound "to do"
+		"hit effect" "to do"
 		"inaccuracy" 4
 		"velocity" 10
 		"lifetime" 40
@@ -136,6 +154,9 @@ outfit "Cannonade"
 	"weapon capacity" -36
 	"turret mounts" -1
 	weapon
+		sprite "projectile/to do"
+		sound "to do"
+		"hit effect" "to do"
 		"inaccuracy" 4
 		"velocity" 10
 		"lifetime" 40
@@ -155,6 +176,9 @@ outfit "Moon Quaker"
 	"weapon capacity" -48
 	"turret mounts" -1
 	weapon
+		sprite "projectile/to do"
+		sound "to do"
+		"hit effect" "to do"
 		"inaccuracy" 5
 		"velocity" 12
 		"lifetime" 40
@@ -176,6 +200,9 @@ outfit "Coil Launcher"
 	"weapon capacity" -104
 	"turret mounts" -1
 	weapon
+		sprite "projectile/to do"
+		sound "to do"
+		"hit effect" "to do"
 		"inaccuracy" 1
 		"velocity" 6.45
 		"lifetime" 62
