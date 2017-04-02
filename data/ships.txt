@@ -10,7 +10,7 @@
 
 # FIGHTERS AND DRONES
 
-ship "The Ranger"
+ship "Ranger"
 	sprite "ship/theranger"
 	attributes
 		category "Fighter"
@@ -47,7 +47,7 @@ ship "The Ranger"
 	description "Like everything else in the New Systems, The Ranger is designed for maximum cost effectiveness. This fighter serves as a long range mobile defense platform. They are often seeded around a planet’s orbit to defend the system from attack, and on the offensive they can be deployed from carriers to quickly add a lot of firepower to an engagement. Small battles have been won or lost based on a commander’s ability to wisely use these platforms."
 
 ship "Halberd"
-	sprite "ship/todo"
+	sprite "ship/halberd"
 	attributes
 		category "Fighter"
 		"cost" 60000
@@ -80,10 +80,10 @@ ship "Halberd"
 	gun 0 -29 "Lancer"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "The attack fighter frame is designed to fill multiple roles. In the case of the Halberd it carries a single piecing weapon designed to weaken larger foes before friendly combat ships enter engagement range. Most Halberd pilots rate themselves on how many times their escape pod has been recovered in battle as a mark of honor, instead of ‘kills’ as is traditional among fighter crews."
+	description "The attack fighter frame is a striped down version of the Bolas. Without the extra weight and outfit space, this fighter is built for speed. In the case of the Halberd it carries a piercing weapon designed to weaken larger foes before friendly combat ships enter engagement range. Most Halberd pilots rate themselves on how many times their escape pod has been recovered in battle as a mark of honor, instead of ‘kills’ as is traditional among fighter crews."
 
 ship "Archer"
-	sprite "ship/todo"
+	sprite "ship/archer"
 	attributes
 		category "Fighter"
 		"cost" 60000
@@ -116,7 +116,7 @@ ship "Archer"
 	gun 0 -29 "Polybolos Launcher"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "The attack fighter frame is designed to fill multiple roles. In the case of the Arches it is outfitted with a single combat missile launcher and a small supply of ammunition. Once it has fired all it’s ammunition it must retire from the battle or attempt to draw the fire of the enemy."
+	description "The attack fighter frame is a striped down version of the Bolas. Without the extra weight and outfit space, this fighter is built for speed. In the case of the Archer it is outfitted with a small supply of combat missiles. Once it has fired all it’s ammunition it must retire from the battle or attempt to draw the fire of the enemy."
 
 # HEAVY FREIGHTERS
 
@@ -321,7 +321,7 @@ ship "Mine-Layer"
 	description "Mine-Layers often are stationed at planets to help defend the system and prevent raids by the other factions. However, their primary use has been to accompany a task force with much larger ships and lay mines around the battlefield, attempting to screen the larger ships and protect them from direct assault by smaller vessels and fighters. To this end they work quite well, as often a single mine can do substantial damage to a fighter, and prevent the capital ship from wasting its large weapons on smaller threats."
 
 ship "Bolas"
-	sprite "ship/todo"
+	sprite "ship/bolas"
 	attributes
 		category "Interceptor"
 		"cost" 620000

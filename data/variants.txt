@@ -8,7 +8,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-ship "The Ranger" "The Ranger (offense)"
+ship "Ranger" "Ranger (offense)"
 	outfits
 		"Winchester"
 		"Large Passive Regenerator"
@@ -18,7 +18,7 @@ ship "The Ranger" "The Ranger (offense)"
 		
 		
 		
-ship "The Ranger" "The Ranger (defense)"
+ship "Ranger" "Ranger (defense)"
 	outfits
 		"Winchester"
 		"Large Passive Regenerator" 2
