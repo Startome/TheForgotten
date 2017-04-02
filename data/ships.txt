@@ -20,7 +20,7 @@ ship "The Ranger"
 		"required crew" 1
 		"bunks" 1
 		"mass" 60
-		"drag" 0.8
+		"drag" 1.8
 		"heat dissipation" 0.8
 		"outfit space" 100
 		"weapon capacity" 20
