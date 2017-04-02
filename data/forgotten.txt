@@ -9,6 +9,8 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 outfitter "Forgotten Basics"
+  "Hyperdrive"
+  "Supercapacitor"
   "Lancer"
   "Small Heat Sink"
   "Nano Cell"

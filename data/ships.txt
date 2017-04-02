@@ -11,7 +11,7 @@
 # FIGHTERS AND DRONES
 
 ship "Ranger"
-	sprite "ship/theranger"
+	sprite "ship/ranger"
 	attributes
 		category "Fighter"
 		"cost" 60000
@@ -33,9 +33,9 @@ ship "Ranger"
 	outfits
 		"Winchester"
 
-		"Large Passive Regenerator"
+		"Small Passive Regenerator" 3
 		"Deca Core"
-
+		"Supercapacitor"
 		"Fighter Class Steering"
 		"Fighter Class Thrusters"
 
@@ -69,7 +69,8 @@ ship "Halberd"
 	outfits
 		"Lancer"
 
-		"Small Passive Regenerator" 2
+		"Small Passive Regenerator" 
+		"Supercapacitor"
 		"Hecto Core"
 
 		"Fighter Class Steering"
@@ -105,7 +106,8 @@ ship "Archer"
 	outfits
 		"Polybolos Launcher"
 
-		"Small Passive Regenerator" 2
+		"Small Passive Regenerator" 
+		"Supercapacitor"
 		"Hecto Core"
 
 		"Fighter Class Steering"
@@ -344,14 +346,13 @@ ship "Bolas"
 			"hit force" 380
 	outfits
 		"Lancer" 2
-		
-		"Small Heat Sink"
+		"Hyperdrive"
 		"Hecto Core"
-		"Micro Cell"
+		"Small Passive Regenerator" 2
+		"Nano Cell"
 		
-		"Fighter Class Steering"
-		"Fighter Class Thrusters"
-		"Patrol Class Thrusters"
+		"Merchant Class Steering"
+		"Merchant Class Thrusters"
 	
 	engine -24 41
 	engine 24 41
