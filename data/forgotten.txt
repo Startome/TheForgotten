@@ -47,6 +47,8 @@ outfitter "Forgotten Intermediate"
   "Stealth Mine Rack"
 
 outfitter "Forgotten Advanced"
+  "Weapon Expansion"
+  "Engine Expansion"
   "Flak Anti-Missile"
   "Tsar"
   "Moon Quaker"

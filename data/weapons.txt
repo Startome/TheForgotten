@@ -304,22 +304,22 @@ outfit "Kestros Launcher"
 outfit "Harbinger Missile"
 	category "Ammunition"
 	cost 1500
-	thumbnail "outfit/todo"
+	thumbnail "outfit/harbinger"
 	"mass" 0.4
 	"harbinger capacity" -1
-	description "Very expensive, and very powerful. Any large fleet should have a ship equipped to carry these missiles."
+	description "Very expensive, and very powerful. Any large fleet should have a ship equipped to carry these torpedoes."
 
 outfit "Harbinger Launcher"
 	category "Secondary Weapons"
 	cost 80000
-	thumbnail "outfit/todo"
+	thumbnail "outfit/harbinger launcher"
 	"mass" 24
 	"outfit space" -24
 	"weapon capacity" -24
 	"gun ports" -1
 	"harbinger capacity" 39
 	weapon
-		sprite "projectile/todo"
+		sprite "projectile/harbinger"
 			"frame rate" 10
 			"random start frame"
 		sound "harbinger"
@@ -341,12 +341,12 @@ outfit "Harbinger Launcher"
 		"hull damage" 750
 		"hit force" 80
 		"missile strength" 20
-	description "The harbinger missile system is an extremely powerful system, however it has it’s fill of drawbacks. While it has the most power of the three missiles mass produced in the New Systems, it is the slowest and weakest homing of all three. When AMT technology advanced, Harbingers become obsolete as they were consistently shot down before reaching their targets. However when the Polybolos missile was created, the Harbinger came back to prominence. The two systems paired are very lethal."
+	description "The harbinger torpedo is an extremely powerful system, however it has it’s fill of drawbacks. While it has the most power of the three missiles mass produced in the New Systems, it is the slowest and weakest homing of all three. When AMT technology advanced, Harbingers become obsolete as they were consistently shot down before reaching their targets. However when the Polybolos missile was created, the Harbinger came back to prominence. The two systems paired are very lethal."
 
 outfit "Stealth Mine"
 	category "Ammunition"
 	cost 500
-	thumbnail "to do."
+	thumbnail "outfit/stealth mine outfit"
 	"mass" .3
 	"minelayer capacity" -1
 	description "to do."
@@ -364,7 +364,7 @@ outfit "Stealth Mine Rack"
 outfit "Stealth Minelayer"
 	category "Secondary Weapons"
 	cost 90000
-	thumbnail "to do."
+	thumbnail "outfit/stealth minelayer outfit"
 	"mass" 16
 	"outfit space" -16
 	"weapon capacity" -16
@@ -372,12 +372,12 @@ outfit "Stealth Minelayer"
 	"gun ports" -1
 	"minelayer capacity" 24
 	weapon
-		sprite "to do."
+		sprite "projectile/stealth minelayer"
 			"frame rate" .6
 			"no repeat"
 		sound "to do."
 		ammo "Stealth Mine"
-		icon "to do."
+		icon "stealth minelayer"
 		"fire effect" "minelayer fire"
 		"hit effect" "small explosion"
 		"die effect" "minelayer split" 2
@@ -402,7 +402,7 @@ outfit "Stealth Minelayer"
 
 outfit "Stealth Mine Submunition"
 	weapon
-		sprite "to do."
+		sprite "projectile/stealth mine"
 			"frame rate" 1
 			"no repeat"
 		"hit effect" "small explosion"

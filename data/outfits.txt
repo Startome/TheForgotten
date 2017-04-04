@@ -110,7 +110,7 @@ outfit "Machine Guns"
 outfit "Infrared Vision"
 	category "Hand to Hand"
 	thumbnail "outfit/todo"
-	"capture attack" 0.3
+	"capture attack" 1.3
 	"capture defense" 1.8
 	"unplunderable" 1
 	description "to do."
@@ -148,7 +148,7 @@ outfit "Hecto Core"
 outfit "Kilo Core"
 	category "Power"
 	cost 1800000
-	thumbnail "outfit/todo"
+	thumbnail "outfit/kilo core"
 	"mass" 75
 	"outfit space" -75
 	"energy generation" 12.7
@@ -350,3 +350,27 @@ outfit "Capital Class Thrusters"
 	"thrusting energy" 12.52
 	"thrusting heat" 32.28
 	description "to do."
+	
+	
+# Expansions
+
+outfit "Weapon Expansion"
+	category "Systems"
+	cost 50000
+	thumbnail "outfit/orange screwdriver"
+	"mass" 5
+	"weapon capacity" 4
+	"engine capacity" -10
+	unplunderable 1
+	description "This is an expensive yet vital hull space conversion for any ship that just can't quite cut it to fill a role. Beware though, for over use of this outfit can drastically reduce a ship's ability to move within a system."
+
+outfit "Engine Expansion"
+	category "Systems"
+	cost 30000
+	thumbnail "outfit/green screwdriver"
+	"mass" 5
+	"engine capacity" 4
+	"weapon capacity" -10
+	unplunderable 1
+	description "This hull space conversion is essential when a ship need just a little more speed. A pilot should be cautious though, as they can completely eliminate a ship's ability to fight."
+
