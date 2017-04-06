@@ -69,7 +69,7 @@ ship "Halberd"
 	outfits
 		"Lancer"
 
-		"Small Passive Regenerator" 
+		"Small Passive Regenerator"
 		"Supercapacitor"
 		"Hecto Core"
 
@@ -106,7 +106,7 @@ ship "Archer"
 	outfits
 		"Polybolos Launcher"
 
-		"Small Passive Regenerator" 
+		"Small Passive Regenerator"
 		"Supercapacitor"
 		"Hecto Core"
 
@@ -198,16 +198,16 @@ ship "Tsunami"
 	outfits
 		"Tsar" 4
 		"Cannonade" 2
-		
-		"Large Active Regenerator" 
+
+		"Large Active Regenerator"
 		"Medium Active Regenerator"
 		"Giga Core"
 		"Heat Sink Network" 2
 		"Centi Cell"
-		
+
 		"Capital Class Steering"
 		"Capital Class Thrusters"
-		
+
 	engine -17 143
 	engine 17 143
 	gun -17 -88 "Tsar"
@@ -251,13 +251,13 @@ ship "Invincible"
 		"Flak Anti-Missile"
 		"Gatling Anti-Missile"
 		"Tsar" 6
-		
+
 		"Large Active Regenerator"
 		"Heat Sink Network"
 		"Giga Core"
 		"Deca Core"
 		"Centi Cell"
-		
+
 		"Capital Class Steering" 2
 		"Capital Class Thrusters"
 
@@ -308,13 +308,13 @@ ship "Mine-Layer"
 	outfits
 		"Stealth Minelayer" 2
 		"Stealth Mine" 66
-		
+
 		"Deca Core"
 		"Stealth Mine Rack" 2
-		
+
 		"Fighter Class Steering"
 		"Fighter Class Thrusters"
-	
+
 	gun -9 -17 "Stealth Minelayer"
 	gun 9 -17 "Stealth Minelayer"
 	explode "tiny explosion" 10
@@ -350,10 +350,10 @@ ship "Bolas"
 		"Hecto Core"
 		"Small Passive Regenerator" 2
 		"Nano Cell"
-		
+
 		"Merchant Class Steering"
 		"Merchant Class Thrusters"
-	
+
 	engine -24 41
 	engine 24 41
 	gun -9 -17 "Lancer"
