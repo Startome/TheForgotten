@@ -392,3 +392,34 @@ ship "Longship"
 	explode "small explosion" 32
 	explode "medium explosion" 18
 	description "to do."
+
+# TRANSPORT
+
+ship "Torch"
+	sprite "/ship/torch"
+	attributes
+		category "Transport"
+		"cost" 1100000
+		"shields" 800
+		"hull" 2000
+		"required crew" 2
+		"bunks" 15
+		"mass" 110
+		"drag" 3.5
+		"heat dissipation" 0.9
+		"fuel capacity" 700
+		"cargo space" 5
+		"outfit space" 200
+		"weapon capacity" 30
+		"engine capacity" 10
+		weapon
+			"blast radius" 20
+			"shield damage" 200
+			"hull damage" 100
+			"hit force" 220
+	outfits
+
+	explode "tiny explosion" 14
+	explode "small explosion" 16
+	explode "medium explosion" 6
+	description "to do."
