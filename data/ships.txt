@@ -69,7 +69,7 @@ ship "Halberd"
 	outfits
 		"Lancer"
 
-		"Small Passive Regenerator" 
+		"Small Passive Regenerator"
 		"Supercapacitor"
 		"Hecto Core"
 
@@ -106,7 +106,7 @@ ship "Archer"
 	outfits
 		"Polybolos Launcher"
 
-		"Small Passive Regenerator" 
+		"Small Passive Regenerator"
 		"Supercapacitor"
 		"Hecto Core"
 
@@ -198,16 +198,16 @@ ship "Tsunami"
 	outfits
 		"Tsar" 4
 		"Cannonade" 2
-		
-		"Large Active Regenerator" 
+
+		"Large Active Regenerator"
 		"Medium Active Regenerator"
 		"Giga Core"
 		"Heat Sink Network" 2
 		"Centi Cell"
-		
+
 		"Capital Class Steering"
 		"Capital Class Thrusters"
-		
+
 	engine -17 143
 	engine 17 143
 	gun -17 -88 "Tsar"
@@ -251,13 +251,13 @@ ship "Invincible"
 		"Flak Anti-Missile"
 		"Gatling Anti-Missile"
 		"Tsar" 6
-		
+
 		"Large Active Regenerator"
 		"Heat Sink Network"
 		"Giga Core"
 		"Deca Core"
 		"Centi Cell"
-		
+
 		"Capital Class Steering" 2
 		"Capital Class Thrusters"
 
@@ -308,13 +308,13 @@ ship "Mine-Layer"
 	outfits
 		"Stealth Minelayer" 2
 		"Stealth Mine" 66
-		
+
 		"Deca Core"
 		"Stealth Mine Rack" 2
-		
+
 		"Fighter Class Steering"
 		"Fighter Class Thrusters"
-	
+
 	gun -9 -17 "Stealth Minelayer"
 	gun 9 -17 "Stealth Minelayer"
 	explode "tiny explosion" 10
@@ -350,10 +350,10 @@ ship "Bolas"
 		"Hecto Core"
 		"Small Passive Regenerator" 2
 		"Nano Cell"
-		
+
 		"Merchant Class Steering"
 		"Merchant Class Thrusters"
-	
+
 	engine -24 41
 	engine 24 41
 	gun -9 -17 "Lancer"
@@ -361,3 +361,34 @@ ship "Bolas"
 	explode "tiny explosion" 15
 	explode "small explosion" 10
 	description "’The bridge of a Fast Attack Ship is anything but roomy or comfortable’ - J. Allan. Most captains of these vessels are a unique sort; a type who has little fear, and a lot of patience. That is to keep them from going mad cramped into the tiny spaces in the interior of these vessels.  Originally designed to run messages and mail back and forth quickly between systems, they were promptly adopted for military use due to their speed and firepower being so great for their cost. These ships are usually very fast, and slow to turn. This makes them great for quick hitting, but fleeing before they can be shot in return."
+
+# LIGHT FREIGHTER
+
+ship "Longship"
+	sprite "/ship/longship"
+	attributes
+		category "Light Freighter"
+		"cost" 1280000
+		"shields" 1200
+		"hull" 5200
+		"required crew" 5
+		"bunks" 10
+		"mass" 408
+		"drag" 6.5
+		"heat dissipation" 0.7
+		"fuel capacity" 400
+		"cargo space" 180
+		"outfit space" 220
+		"weapon capacity" 60
+		"engine capacity" 80
+		weapon
+			"blast radius" 50
+			"shield damage" 500
+			"hull damage" 150
+			"hit force" 800
+	outfits
+
+	explode "tiny explosion" 16
+	explode "small explosion" 32
+	explode "medium explosion" 18
+	description "to do."
