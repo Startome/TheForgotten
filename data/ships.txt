@@ -423,3 +423,120 @@ ship "Torch"
 	explode "small explosion" 16
 	explode "medium explosion" 6
 	description "to do."
+
+#Stations
+
+ship "Trade Station"
+	sprite "ship/trade station"
+	attributes
+		category "Heavy Warship"
+		"cost" 35950000
+		"shields" 80000
+		"hull" 200000
+		"required crew" 850
+		"bunks" 1500
+		"mass" 14000
+		"drag" 900
+		"heat dissipation" 14.5
+		"outfit space" 1100
+		"weapon capacity" 400
+		"engine capacity" 30
+		"self destruct" 1
+		weapon
+			"blast radius" 100
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Nano Cell"
+		"Fighter Class Steering"
+		"Fighter Class Thrusters"
+		"Polybolos Launcher" 2
+		"Polybolos Missile" 800
+		"Kestros Missile" 160
+		Cannonade 4
+		"Hecto Core"
+		"Kestros Launcher" 2
+		"Flak Anti-Missile" 4
+		"Smoke Grenades" 1500
+		"Giga Core"
+		"Large Active Regenerator" 7
+
+	turret 6 -13.5 "Flak Anti-Missile"
+	turret 14 -6.5 "Flak Anti-Missile"
+	turret 13 6.5 "Flak Anti-Missile"
+	turret 5.5 14 "Flak Anti-Missile"
+	turret -6 13.5 Cannonade
+	turret -14 6 Cannonade
+	turret -14 -7 Cannonade
+	turret -6 -12 Cannonade
+	gun 0.5 215.5 "Kestros Launcher"
+	gun 216.5 -0.5 "Kestros Launcher"
+	gun -0.5 -216 "Polybolos Launcher"
+	gun -217.5 -0.5 "Polybolos Launcher"
+	engine -0.5 0
+	engine -0.5 0
+	explode "large explosion" 55 
+	explode "huge explosion" 45
+	description "These trade stations are usually civilian owned, and are the largest space hulls in the New Systems, aside from their military variants. Since they are such a concentration of wealth and hardware, they are formidably hardened and defended."
+
+ship "Military Station"
+	sprite "ship/military station"
+	attributes
+		category "Heavy Warship"
+		"cost" 39950000
+		"shields" 80000
+		"hull" 200000
+		"required crew" 1150
+		"bunks" 1500
+		"mass" 15000
+		"drag" 1000
+		"heat dissipation" 16.5
+		"outfit space" 2000
+		"weapon capacity" 800
+		"engine capacity" 30
+		"self destruct" 1
+		weapon
+			"blast radius" 120
+			"shield damage" 1400
+			"hull damage" 800
+			"hit force" 2200
+	outfits
+		"Nano Cell"
+		"Small Passive Regenerator"
+		"Fighter Class Steering"
+		"Fighter Class Thrusters"
+		"Polybolos Launcher" 2
+		"Polybolos Missile" 800
+		"Kestros Missile" 80
+		"Kestros Launcher"
+		"Harbinger Missile" 78
+		"Flak Anti-Missile" 6
+		"Moon Quaker" 6
+		"Smoke Grenades" 1500
+		"Giga Core" 2
+		"Large Active Regenerator" 14
+		"Harbinger Launcher" 2
+
+	turret 0.5 -15.5 "Flak Anti-Missile"
+	turret -6 -11.5 "Flak Anti-Missile"
+	turret -8.5 -7 "Flak Anti-Missile"
+	turret -14.5 -7 "Flak Anti-Missile"
+	turret -14.5 5.5 "Flak Anti-Missile"
+	turret -11 10 "Flak Anti-Missile"
+	turret -6.5 14 "Moon Quaker"
+	turret 1.5 14.5 "Moon Quaker"
+	turret 7.5 12.5 "Moon Quaker"
+	turret 14 -0.5 "Moon Quaker"
+	turret 13.5 -6.5 "Moon Quaker"
+	turret 13 7 "Moon Quaker"
+	gun -63.5 -201.5 "Harbinger Launcher"
+	gun 169 -125.5 "Harbinger Launcher"
+	gun 172 124.5 "Kestros Launcher"
+	gun -66 202 "Polybolos Launcher"
+	gun -214.5 -1 "Polybolos Launcher"
+	engine 0.5 -1
+	engine 0.5 -1
+	explode "large explosion" 65
+	explode "huge explosion" 55
+	description "The military station is the largest investement of resources any of the faction have made in history. They are immense and dangerous. Bristling with weapons, a captain should steer well clear unless acompanied by a substantial part of a faction navy."

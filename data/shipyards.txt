@@ -19,3 +19,7 @@ shipyard "Forgotten Advanced"
   "Tsunami"
   "Invincible"
   "Bolas"
+  
+shipyard "Forgotten No"
+  "Trade Station"
+  "Military Station"

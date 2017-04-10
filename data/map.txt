@@ -1983,7 +1983,8 @@ planet Wheaton
 planet Windsor
 	landscape land/earthrise
 	description `Windsor is a cool rocky planet with a consistent climate. This is the primary planet on the front with the Confederacy. While the hostilities between the Directive and Confederacy are substantially less that both factions have with the Neo-Hegemony, this is still a pretty major posting with the Directive navy. The consistent climate and lower casualty rate make it a posting in very high demand.`
-	spaceport `The spaceport here is pretty slow and comfortable. There are enough travelling vessels that trade is proftable, and the constant presence of navy sailors keeps the markets well paid. However the laziness comes from the fact repairs are uncommon and trading vessels are fairly small through this sector of Directive space.`
+	spaceport `The spaceport here is pretty slow and comfortable. There are enough travelling vessels that trade is proftable, and the constant presence of navy sailors keeps the markets well paid. However the laziness comes from the fact repairs are uncommon and trading vessels are fairly small through this sector of Directive space. 
+	The local trade station contributes to the economic growth and has brought some comfort between Genesis Directive and Confederation merchants, as it is a sort of neutral ground between them. `
 	bribe 0.01
 	security 0.02
 

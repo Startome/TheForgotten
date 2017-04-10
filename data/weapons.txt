@@ -98,7 +98,7 @@ outfit "Lancer"
 outfit "Winchester"
 	category "Guns"
 	cost 210000
-	thumbnail "outfit/todo"
+	thumbnail "outfit/winchester"
 	"mass" 16
 	"outfit space" -16
 	"weapon capacity" -16
@@ -106,7 +106,7 @@ outfit "Winchester"
 	weapon
 		sprite "projectile/winchester shell"
 		sound "barret"
-		"hit effect" "to do"
+		"hit effect" "bullet impact"
 		"inaccuracy" 1
 		"velocity" 15
 		"lifetime" 60
@@ -117,7 +117,7 @@ outfit "Winchester"
 		"hit force" 24
 		"shield damage" 120
 		"hull damage" 200
-	description "The Winchester is currently the longest ranged gun in the New Systems. While it does not do a lot of damage per second, it is highly effective when deployed on ships near the outskirts of a system with a defense fleet positioned in the middle, as is a textbook military strategy at the Confederation Officer School."
+	description "The Winchester is currently the longest ranged gun in the New Systems. While it does not do a lot of damage per second, it is highly effective when deployed on ships near the outskirts of a system with a defense fleet positioned in the middle, as is a textbook military strategy at the Confederation Officer School. In order to make the best use of available resources, all shells are extracted for re-use once they are fired."
 
 outfit "Tsar"
 	category "Guns"
