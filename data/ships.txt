@@ -437,7 +437,7 @@ ship "Trade Station"
 		"bunks" 1500
 		"mass" 14000
 		"drag" 900
-		"heat dissipation" 14.5
+		"heat dissipation" 4.5
 		"outfit space" 1100
 		"weapon capacity" 400
 		"engine capacity" 30
@@ -491,7 +491,7 @@ ship "Military Station"
 		"bunks" 1500
 		"mass" 15000
 		"drag" 1000
-		"heat dissipation" 16.5
+		"heat dissipation" 6.5
 		"outfit space" 2000
 		"weapon capacity" 800
 		"engine capacity" 30
