@@ -365,7 +365,7 @@ ship "Bolas"
 # LIGHT FREIGHTER
 
 ship "Longship"
-	sprite "/ship/longship"
+	sprite "ship/longship"
 	attributes
 		category "Light Freighter"
 		"cost" 1280000
@@ -396,7 +396,7 @@ ship "Longship"
 # TRANSPORT
 
 ship "Torch"
-	sprite "/ship/torch"
+	sprite "ship/torch"
 	attributes
 		category "Transport"
 		"cost" 1100000

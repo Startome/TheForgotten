@@ -24,6 +24,8 @@ outfitter "Forgotten Basics"
   "Polybolos Missile"
   "Kestros Missile"
   "Stealth Mine"
+  "Cargo Expansion"
+  "Outfit Expansion"
 
 outfitter "Forgotten Intermediate"
   "Shotgun Anti-Missile"
