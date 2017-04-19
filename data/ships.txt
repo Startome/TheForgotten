@@ -478,6 +478,7 @@ ship "Trade Station"
 	engine -0.5 0
 	explode "large explosion" 55
 	explode "huge explosion" 45
+	"final explode" "final explosion huge"
 	description "These trade stations are usually civilian owned, and are the largest space hulls in the New Systems, aside from their military variants. Since they are such a concentration of wealth and hardware, they are formidably hardened and defended."
 
 ship "Military Station"
@@ -539,6 +540,7 @@ ship "Military Station"
 	engine 0.5 -1
 	explode "large explosion" 65
 	explode "huge explosion" 55
+	"final explode" "final explosion huge"
 	description "The military station is the largest investement of resources any of the faction have made in history. They are immense and dangerous. Bristling with weapons, a captain should steer well clear unless acompanied by a substantial part of a faction navy."
 
 # LIGHT WARSHIP
