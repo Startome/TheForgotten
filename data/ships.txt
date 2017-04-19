@@ -166,7 +166,7 @@ ship "Galleon"
 	turret 34 -64 "Gatling Anti-Missile"
 	explode "small explosion" 13
 	explode "medium explosion" 23
-	explode "big explosion" 33
+	explode "large explosion" 33
 	explode "huge explosion" 26
 	"final explode" "final explosion large"
 	description "The Galleon is named such because it is an extremely large and lumbering trade vessel. While it is slow and heavy, it is extremely well armed and a formidable foe to attack, not to mention the complement of escorts such valuable targets usually have in tow. It is nicknamed the Marquis, as it is the most grand and noble of civilian vessels in the New Systems."
@@ -320,6 +320,7 @@ ship "Mine-Layer"
 	explode "tiny explosion" 10
 	explode "small explosion" 20
 	explode "medium explosion" 2
+	"final explode" "final explosion small"
 	description "Mine-Layers often are stationed at planets to help defend the system and prevent raids by the other factions. However, their primary use has been to accompany a task force with much larger ships and lay mines around the battlefield, attempting to screen the larger ships and protect them from direct assault by smaller vessels and fighters. To this end they work quite well, as often a single mine can do substantial damage to a fighter, and prevent the capital ship from wasting its large weapons on smaller threats."
 
 ship "Bolas"
@@ -422,6 +423,7 @@ ship "Torch"
 	explode "tiny explosion" 14
 	explode "small explosion" 16
 	explode "medium explosion" 6
+	"final explode" "final explosion small"
 	description "to do."
 
 # STATIONS
@@ -601,6 +603,7 @@ ship "Longbow"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	explode "medium explosion" 10
+	"final explode" "final explosion small"
 	description "to do."
 
 ship "Glaive"
@@ -630,6 +633,7 @@ ship "Glaive"
 	explode "tiny explosion" 12
 	explode "small explosion" 18
 	explode "medium explosion" 12
+	"final explode" "final explosion small"
 	description "to do."
 
 # MEDIUM WARSHIPS
