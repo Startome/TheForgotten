@@ -631,3 +631,99 @@ ship "Glaive"
 	explode "small explosion" 18
 	explode "medium explosion" 12
 	description "to do."
+
+# MEDIUM WARSHIPS
+
+ship "Enterprise"
+	sprite "ship/enterprise"
+	attributes
+		category "Light Warship"
+		"cost" 3200
+		"shields" 2400
+		"hull" 7600
+		"required crew" 26
+		"bunks" 38
+		"mass" 440
+		"drag" 6
+		"heat dissipation" 0.6
+		"fuel capacity" 400
+		"cargo space" 80
+		"outfit space" 420
+		"weapon capacity" 140
+		"engine capacity" 100
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+
+	explode "tiny explosion" 16
+	explode "small explosion" 32
+	explode "medium explosion" 20
+	explode "large explosion" 4
+	"final explode" "final explosion medium"
+	description "to do."
+
+ship "Tortoise"
+	sprite "ship/tortoise"
+	attributes
+		category "Light Warship"
+		"cost" 3200000
+		"shields" 2200
+		"hull" 6200
+		"required crew" 12
+		"bunks" 25
+		"mass" 270
+		"drag" 3.5
+		"heat dissipation" 0.65
+		"fuel capacity" 400
+		"cargo space" 60
+		"outfit space" 380
+		"weapon capacity" 140
+		"engine capacity" 110
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
+	outfits
+
+	explode "tiny explosion" 16
+	explode "small explosion" 32
+	explode "medium explosion" 20
+	explode "large explosion" 4
+	"final explode" "final explosion medium"
+	description "to do."
+
+ship "Shaken"
+	sprite "ship/shaken"
+	attributes
+		category "Light Warship"
+		"cost" 6750000
+		"shields" 4200
+		"hull" 10200
+		"required crew" 24
+		"bunks" 36
+		"mass" 360
+		"drag" 5.4
+		"heat dissipation" 0.75
+		"fuel capacity" 400
+		"cargo space" 100
+		"outfit space" 560
+		"weapon capacity" 174
+		"engine capacity" 160
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+
+	explode "tiny explosion" 16
+	explode "small explosion" 32
+	explode "medium explosion" 18
+	explode "large explosion" 12
+	explode "huge explosion" 4
+	"final explode" "final explosion large"
+	description "to do."
