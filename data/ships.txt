@@ -424,7 +424,7 @@ ship "Torch"
 	explode "medium explosion" 6
 	description "to do."
 
-#Stations
+# STATIONS
 
 ship "Trade Station"
 	sprite "ship/trade station"
@@ -476,7 +476,7 @@ ship "Trade Station"
 	gun -217.5 -0.5 "Polybolos Launcher"
 	engine -0.5 0
 	engine -0.5 0
-	explode "large explosion" 55 
+	explode "large explosion" 55
 	explode "huge explosion" 45
 	description "These trade stations are usually civilian owned, and are the largest space hulls in the New Systems, aside from their military variants. Since they are such a concentration of wealth and hardware, they are formidably hardened and defended."
 
@@ -540,3 +540,92 @@ ship "Military Station"
 	explode "large explosion" 65
 	explode "huge explosion" 55
 	description "The military station is the largest investement of resources any of the faction have made in history. They are immense and dangerous. Bristling with weapons, a captain should steer well clear unless acompanied by a substantial part of a faction navy."
+
+# LIGHT WARSHIP
+
+ship "Bowler"
+	sprite "ship/bowler"
+	attributes
+		category "Light Warship"
+		"cost" 1260000
+		"shields" 1200
+		"hull" 3500
+		"required crew" 3
+		"bunks" 8
+		"mass" 120
+		"drag" 2.4
+		"heat dissipation" 0.8
+		"fuel capacity" 600
+		"cargo space" 10
+		"outfit space" 300
+		"weapon capacity" 60
+		"engine capacity" 100
+		weapon
+			"blast radius" 42
+			"shield damage" 420
+			"hull damage" 210
+			"hit force" 630
+	outfits
+
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 6
+	description "to do."
+
+ship "Longbow"
+	sprite "ship/longbow"
+	attributes
+		category "Light Warship"
+		"cost" 1280000
+		"shields" 1500
+		"hull" 3500
+		"required crew" 5
+		"bunks" 10
+		"mass" 160
+		"drag" 3.2
+		"heat dissipation" 0.6
+		"fuel capacity" 400
+		"cargo space" 30
+		"outfit space" 320
+		"weapon capacity" 60
+		"engine capacity" 100
+		weapon
+			"blast radius" 46
+			"shield damage" 460
+			"hull damage" 230
+			"hit force" 690
+	outfits
+
+	explode "tiny explosion" 12
+	explode "small explosion" 16
+	explode "medium explosion" 10
+	description "to do."
+
+ship "Glaive"
+	sprite "ship/glaive"
+	attributes
+		category "Light Warship"
+		"cost" 1800000
+		"shields" 1900
+		"hull" 5600
+		"required crew" 7
+		"bunks" 12
+		"mass" 180
+		"drag" 2.6
+		"heat dissipation" 0.8
+		"fuel capacity" 400
+		"cargo space" 40
+		"outfit space" 340
+		"weapon capacity" 100
+		"engine capacity" 80
+		weapon
+			"blast radius" 68
+			"shield damage" 680
+			"hull damage" 340
+			"hit force" 1020
+	outfits
+
+	explode "tiny explosion" 12
+	explode "small explosion" 18
+	explode "medium explosion" 12
+	description "to do."
