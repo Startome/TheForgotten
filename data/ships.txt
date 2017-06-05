@@ -570,7 +570,11 @@ ship "Bowler"
 			"hull damage" 210
 			"hit force" 630
 	outfits
-
+	
+		"Winchester" 2
+		
+	gun 169 -125.5 "Winchester"
+	gun 172 124.5 "Winchester"
 	explode "tiny explosion" 12
 	explode "small explosion" 16
 	explode "medium explosion" 6
@@ -629,7 +633,15 @@ ship "Glaive"
 			"hull damage" 340
 			"hit force" 1020
 	outfits
+	
+		"Lancer" 4
 
+	gun 69 -60.5 "Lancer"
+	gun 60 60.5 "Lancer"
+	gun 68 -60.5 "Lancer"
+	gun 60 60.5 "Lancer"
+	engine
+	engine
 	explode "tiny explosion" 12
 	explode "small explosion" 18
 	explode "medium explosion" 12
@@ -641,7 +653,7 @@ ship "Glaive"
 ship "Enterprise"
 	sprite "ship/enterprise"
 	attributes
-		category "Light Warship"
+		category "Medium Warship"
 		"cost" 3200
 		"shields" 2400
 		"hull" 7600
@@ -672,7 +684,7 @@ ship "Enterprise"
 ship "Tortoise"
 	sprite "ship/tortoise"
 	attributes
-		category "Light Warship"
+		category "Medium Warship"
 		"cost" 3200000
 		"shields" 2200
 		"hull" 6200
@@ -703,7 +715,7 @@ ship "Tortoise"
 ship "Shaken"
 	sprite "ship/shaken"
 	attributes
-		category "Light Warship"
+		category "Medium Warship"
 		"cost" 6750000
 		"shields" 4200
 		"hull" 10200
