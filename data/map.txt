@@ -760,6 +760,10 @@ system "Gamma Cassiopeiae"
 	asteroids "small metal" 5 2.9203
 	asteroids "medium metal" 6 6.9977
 	asteroids "large metal" 42 3.4713
+  belt 1779
+  minables aluminum 2 6.56317
+  minables titanium 28 4.09147
+  minables tungsten 6 7.59246
 	trade Clothing 252
 	trade Electronics 672
 	trade Equipment 540
@@ -781,66 +785,34 @@ system "Gamma Cassiopeiae"
 	object
 		sprite star/k0
 		period 10
-		belt 1779
-		minables aluminum 2 6.56317
-		minables titanium 28 4.09147
-		minables tungsten 6 7.59246
 	object
 		sprite planet/ice7
 		distance 208.99
 		period 56.6167
-		belt 1779
-		minables aluminum 2 6.56317
-		minables titanium 28 4.09147
-		minables tungsten 6 7.59246
 	object
 		sprite planet/cloud2
 		distance 465
 		period 187.904
-		belt 1779
-		minables aluminum 2 6.56317
-		minables titanium 28 4.09147
-		minables tungsten 6 7.59246
 	object
 		sprite planet/desert6
 		distance 789.64
 		period 415.815
-		belt 1779
-		minables aluminum 2 6.56317
-		minables titanium 28 4.09147
-		minables tungsten 6 7.59246
 	object
 		sprite planet/gas3
 		distance 1622.89
 		period 1225.15
-		belt 1779
-		minables aluminum 2 6.56317
-		minables titanium 28 4.09147
-		minables tungsten 6 7.59246
 		object
 			sprite planet/ganymede
 			distance 303
 			period 12.7598
-			belt 1779
-			minables aluminum 2 6.56317
-			minables titanium 28 4.09147
-			minables tungsten 6 7.59246
 		object
 			sprite planet/io
 			distance 425
 			period 21.1965
-			belt 1779
-			minables aluminum 2 6.56317
-			minables titanium 28 4.09147
-			minables tungsten 6 7.59246
 		object "Wormhole Beta"
 			sprite planet/wormhole
 			distance 505
 			period 25
-			belt 1779
-			minables aluminum 2 6.56317
-			minables titanium 28 4.09147
-			minables tungsten 6 7.59246
 
 system Gamow
 	pos 919.01 642.251
@@ -1983,11 +1955,9 @@ planet Wheaton
 planet Windsor
 	landscape land/earthrise
 	description `Windsor is a cool rocky planet with a consistent climate. This is the primary planet on the front with the Confederacy. While the hostilities between the Directive and Confederacy are substantially less that both factions have with the Neo-Hegemony, this is still a pretty major posting with the Directive navy. The consistent climate and lower casualty rate make it a posting in very high demand.`
-	spaceport `The spaceport here is pretty slow and comfortable. There are enough travelling vessels that trade is proftable, and the constant presence of navy sailors keeps the markets well paid. However the laziness comes from the fact repairs are uncommon and trading vessels are fairly small through this sector of Directive space. 
-	The local trade station contributes to the economic growth and has brought some comfort between Genesis Directive and Confederation merchants, as it is a sort of neutral ground between them. `
+	spaceport `The spaceport here is pretty slow and comfortable. There are enough travelling vessels that trade is proftable, and the constant presence of navy sailors keeps the markets well paid. However the laziness comes from the fact repairs are uncommon and trading vessels are fairly small through this sector of Directive space. The local trade station contributes to the economic growth and has brought some comfort between Genesis Directive and Confederation merchants, as it is a sort of neutral ground between them.`
 	bribe 0.01
 	security 0.02
 
 planet "Wormhole Beta"
 	landscape ""
-
